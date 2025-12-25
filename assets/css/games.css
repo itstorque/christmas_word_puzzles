@@ -1,0 +1,3862 @@
+.icon {
+    background-color: #e6e6e6;
+    -webkit-mask: linear-gradient(-90deg, #000 10%, rgba(0, 0, 0, 0.4), #000 70%) right/300% 90%;
+    background-repeat: no-repeat;
+    animation: shimmer 1s infinite
+}
+
+.loadingText {
+    background-color: #e6e6e6;
+    height: 18px;
+    margin-top: .5em;
+    -webkit-mask: linear-gradient(-90deg, #000 10%, rgba(0, 0, 0, 0.4), #000 70%) right/300% 90%;
+    background-repeat: no-repeat;
+    animation: shimmer 1s infinite
+}
+
+.hub-mobile-stats__stats-loading {
+    -webkit-mask: linear-gradient(-90deg, #000 10%, rgba(0, 0, 0, 0.4), #000 70%) right/300% 100%;
+    animation: shimmer 1s infinite
+}
+
+.hub-welcome-sections h3.title,
+.hub-welcome-sections div.hub-stats-card__title,
+.hub-welcome-sections div.hub-stats-card__no-stats,
+.hub-welcome-sections div.hub-stats-card__title,
+.hub-welcome-sections div.hub-stats-card__no-stats,
+.hub-welcome-sections div.hub-promo-card__icon,
+.hub-welcome-sections div.miniProgress0,
+.hub-welcome-sections div.hub-stats-card__more-stats,
+.hub-welcome-sections div.date,
+.hub-welcome-sections div.byline,
+.hub-welcome-sections h3.hub-promo-card__title,
+.hub-welcome-sections div.hub-promo-card__description {
+    animation: fadeIn .3s
+}
+
+.add-fade .standard .loadingText,
+.add-fade .standard .icon,
+.add-fade .loading-card .loadingText,
+.add-fade .loading-card .icon {
+    opacity: .2;
+    transition: visibility 0s 300ms, opacity 200ms linear
+}
+
+@keyframes shimmer {
+    100% {
+        -webkit-mask-position: left
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 20%
+    }
+
+    100% {
+        opacity: 100%
+    }
+}
+
+.xxshort {
+    width: 33%
+}
+
+.xshort {
+    width: 45%
+}
+
+.short {
+    width: 60%
+}
+
+.mlong {
+    width: 66%
+}
+
+.long {
+    width: 70%
+}
+
+.xlong {
+    width: 80%
+}
+
+.thin {
+    height: 1px
+}
+
+.thick {
+    height: 1.5em
+}
+
+.medium {
+    height: 1em
+}
+
+.small {
+    height: .5em
+}
+
+.padding {
+    padding-left: 50px;
+    padding-right: 50px
+}
+
+.featured.standard.tertiary {
+    padding-bottom: 10px
+}
+
+.featured.standard.tertiary .loadingText {
+    margin-top: 12px
+}
+
+.center {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.center .loadingText {
+    margin: 1em auto
+}
+
+.island.loadingDay {
+    height: unset;
+    border: none
+}
+
+.island.loadingDay:hover,
+.island.loadingDayAccordion:hover {
+    box-shadow: unset
+}
+
+.island.loadingDayAccordion {
+    background-color: unset;
+    border: unset;
+    height: unset
+}
+
+.loadingDayAccordion>.leftAccordion {
+    width: 20%;
+    float: left
+}
+
+.loadingDayAccordion>.rightAccordion {
+    padding-top: 10px;
+    width: 60%;
+    float: right
+}
+
+.loadingDayAccordion>.rightAccordion>.loadingText {
+    margin: unset;
+    height: .8em;
+    margin-left: 5px
+}
+
+.loadingDayAccordion>.rightAccordion .loadingText.xshort {
+    width: 66%
+}
+
+.loadingDayAccordion>.rightAccordion .loadingText.xxshort {
+    width: 33%
+}
+
+@media screen and (max-width: 500px) {
+    .island.standard.center {
+        display: block;
+        margin: auto;
+        margin-bottom: 12px
+    }
+}
+
+@keyframes PillGrey-module_slideDown__wH1hZ {
+    0% {
+        transform: translateY(0%)
+    }
+
+    90% {
+        transform: translateY(0%)
+    }
+
+    100% {
+        transform: translateY(100%)
+    }
+}
+
+@keyframes PillGrey-module_flyIn__MdsDx {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes PillGrey-module_flyOut__LQtPF {
+    0% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes PillGrey-module_fadeIn___mLnx {
+    0% {
+        opacity: 0
+    }
+
+    15% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.PillGrey-module_flexContainer__ODUKN {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%
+}
+
+.PillGrey-module_expandToRow__aTomr {}
+
+@media(min-width: 444px) {
+    .PillGrey-module_expandToRow__aTomr {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: nowrap
+    }
+}
+
+@media(max-width: 991.98px) {
+    .PillGrey-module_mobileColumn__YpIYL {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap
+    }
+}
+
+.PillGrey-module_visually-hidden__Hz7ml {
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px
+}
+
+.PillGrey-module_pill__fJN18 {
+    font-family: nyt-franklin, Arial;
+    font-weight: 700;
+    font-size: .625rem;
+    line-height: .75rem;
+    background: #363636;
+    color: #fff !important;
+    height: 24px;
+    display: flex;
+    text-transform: uppercase;
+    border-radius: 6px;
+    letter-spacing: .05rem;
+    white-space: nowrap;
+    padding: 5px 8px;
+    align-items: center
+}
+
+.PillGrey-module_pill__fJN18.PillGrey-module_default__YL9K9 {
+    position: static
+}
+
+.PillGrey-module_pill__fJN18.PillGrey-module_top-right-edge__LLm7D {
+    position: absolute;
+    top: 1em;
+    right: 1em
+}
+
+.PillGrey-module_pill__fJN18.PillGrey-module_top-right-edge-inner__xGxjg {
+    position: absolute;
+    top: -1em;
+    right: -0.1em
+}
+
+@media(max-width: 499px) {
+    .PillGrey-module_pill__fJN18.PillGrey-module_top-right-edge__LLm7D {
+        top: .75em;
+        right: .75em
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(0%)
+    }
+
+    90% {
+        transform: translateY(0%)
+    }
+
+    100% {
+        transform: translateY(100%)
+    }
+}
+
+@keyframes flyIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes flyOut {
+    0% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    15% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%
+}
+
+.expandToRow {
+    composes: flexContainer
+}
+
+@media(min-width: 444px) {
+    .expandToRow {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: nowrap
+    }
+}
+
+@media(max-width: 991.98px) {
+    .mobileColumn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap
+    }
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px
+}
+
+button.button-primary,
+button.button-transparent,
+button.button-dark-mode-support,
+button.button-card-secondary,
+button.button-card-primary,
+button.button-secondary {
+    font-weight: 600;
+    font-family: "nyt-franklin";
+    background: var(--bg-btn-emphasis);
+    color: var(--text-alternate);
+    border: 1px solid var(--stroke);
+    border-radius: 9999px;
+    font-size: 1rem;
+    line-height: 1.25;
+    letter-spacing: .05rem;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: .5rem 2rem;
+    cursor: pointer
+}
+
+button.button-primary:hover:enabled,
+button.button-transparent:hover:enabled,
+button.button-dark-mode-support:hover:enabled,
+button.button-card-secondary:hover:enabled,
+button.button-card-primary:hover:enabled,
+button.button-secondary:hover:enabled {
+    background: var(--text-secondary)
+}
+
+button.button-primary:active,
+button.button-transparent:active,
+button.button-dark-mode-support:active,
+button.button-card-secondary:active,
+button.button-card-primary:active,
+button.button-secondary:active {
+    background: var(--text-subdued)
+}
+
+button.button-primary:focus:enabled,
+button.button-transparent:focus:enabled,
+button.button-dark-mode-support:focus:enabled,
+button.button-card-secondary:focus:enabled,
+button.button-card-primary:focus:enabled,
+button.button-secondary:focus:enabled {
+    border: 1px solid #a7d8ff
+}
+
+button.button-primary:disabled,
+button.button-transparent:disabled,
+button.button-dark-mode-support:disabled,
+button.button-card-secondary:disabled,
+button.button-card-primary:disabled,
+button.button-secondary:disabled {
+    opacity: .5;
+    cursor: default;
+    border: 1px solid rgba(0, 0, 0, 0)
+}
+
+button.button-secondary {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000
+}
+
+button.button-secondary:hover:enabled {
+    background: #f4f4f4;
+    color: #000
+}
+
+button.button-secondary:active {
+    background: #e6e6e6
+}
+
+button.button-secondary:disabled {
+    background: #fff
+}
+
+button.button-card-primary {
+    text-transform: uppercase;
+    border: 2px solid rgba(0, 0, 0, 0)
+}
+
+button.button-card-primary:hover:enabled {
+    background-color: #5960ec;
+    border: 2px solid rgba(0, 0, 0, 0)
+}
+
+button.button-card-primary:active {
+    background-color: #5960ec;
+    border: 2px solid #000
+}
+
+button.button-card-primary:focus:enabled {
+    border: 2px solid #a7d8ff
+}
+
+button.button-card-primary:disabled {
+    border: 2px solid rgba(0, 0, 0, 0)
+}
+
+button.button-card-secondary {
+    text-transform: uppercase;
+    background: #fff;
+    color: #000;
+    border: 2px solid #000
+}
+
+button.button-card-secondary:hover:enabled {
+    background-color: #fff;
+    color: #5960ec;
+    border: 2px solid #5960ec
+}
+
+button.button-card-secondary:active {
+    background-color: #fff;
+    color: #5960ec;
+    border: 2px solid #000
+}
+
+button.button-card-secondary:focus:enabled {
+    border: 2px solid #a7d8ff
+}
+
+button.button-card-secondary:disabled {
+    background: #fff;
+    border: 2px solid #000
+}
+
+button.button-dark-mode-support {
+    background: var(--bg-btn-emphasis);
+    color: var(--text-alternate);
+    border: none
+}
+
+button.button-dark-mode-support:hover:enabled {
+    background: #f4f4f4;
+    color: #000
+}
+
+button.button-dark-mode-support:active {
+    background: #e6e6e6
+}
+
+button.button-dark-mode-support:disabled {
+    background: #fff
+}
+
+button.button-transparent {
+    background: var(--transparent);
+    color: var(--text);
+    border: 1px solid var(--stroke)
+}
+
+button.button-transparent:hover:enabled {
+    background: var(--transparent);
+    color: var(--text)
+}
+
+button.button-transparent:active {
+    background: var(--transparent);
+    color: var(--text)
+}
+
+button.button-transparent:disabled {
+    background: var(--transparent);
+    color: var(--text)
+}
+
+.printTool {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    bottom: 0;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%
+}
+
+.printTool a {
+    padding: 0
+}
+
+.puzzleProgressGoldStar {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-gold-star.svg")
+}
+
+.puzzleProgressBlueStar {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-blue-star.svg")
+}
+
+.puzzleProgressUnavailable {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-unavailable.svg")
+}
+
+.puzzleProgress0 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-0.svg")
+}
+
+.puzzleProgress1 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-1.svg")
+}
+
+.puzzleProgress2 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-2.svg")
+}
+
+.puzzleProgress3 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-3.svg")
+}
+
+.puzzleProgress4 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-4.svg")
+}
+
+.puzzleProgress5 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-5.svg")
+}
+
+.puzzleProgress6 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-6.svg")
+}
+
+.puzzleProgress7 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-7.svg")
+}
+
+.puzzleProgress8 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-8.svg")
+}
+
+.puzzleProgress9 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-9.svg")
+}
+
+.puzzleProgress10 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-10.svg")
+}
+
+.puzzleProgress11 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-11.svg")
+}
+
+.puzzleProgress12 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-12.svg")
+}
+
+.puzzleProgress13 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-13.svg")
+}
+
+.puzzleProgress14 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-14.svg")
+}
+
+.puzzleProgress15 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-15.svg")
+}
+
+.puzzleProgress16 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-16.svg")
+}
+
+.miniProgressBlueStar {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/mini-progress/mini-progress-blue-star.svg")
+}
+
+.miniProgress0 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/mini-progress/mini-progress-0.svg")
+}
+
+.miniProgress1 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/mini-progress/mini-progress-1.svg")
+}
+
+.miniProgress2 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/mini-progress/mini-progress-2.svg")
+}
+
+.miniProgress3 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/mini-progress/mini-progress-3.svg")
+}
+
+.miniProgress4 {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/mini-progress/mini-progress-4.svg")
+}
+
+.miniProgressUnavailable {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/mini-progress/mini-unavailable.svg")
+}
+
+.puzzleProgressNewest,
+.miniProgressNewest {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/puzzle-progress-newest.svg")
+}
+
+.island {
+    width: 158px;
+    max-width: 100%;
+    height: 220px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 7px
+}
+
+.island .progressIcon {
+    height: 48px;
+    width: 48px;
+    margin: .75em auto
+}
+
+.island .puzzleInfoContent {
+    height: 100%;
+    padding: 10px
+}
+
+.island .title {
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 28.6px;
+    line-height: 1.7875rem;
+    line-height: 1.2;
+    width: 100%
+}
+
+.island .byline,
+.island .date {
+    text-align: center
+}
+
+.island .date {
+    font-size: .875rem
+}
+
+.island .byline {
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 15.6px;
+    line-height: 0.975rem;
+    width: 100%;
+    line-height: 1.2
+}
+
+@media(max-width: 767.98px) {
+    .island .byline {
+        margin-top: 10px
+    }
+
+    .island .byline .editor {
+        display: none
+    }
+}
+
+.island:hover {
+    box-shadow: 2px 2px 0 0 #e6e6e6
+}
+
+.island:hover .printTool {
+    background-color: #fff;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top: 1px solid #e6e6e6;
+    padding: 1rem .9rem;
+    display: flex
+}
+
+.island:hover .printTool .divider {
+    border-right: 1px solid #dcdcdc;
+    height: 20px;
+    margin-left: 5px
+}
+
+.thumb {
+    max-width: 160px;
+    text-align: center
+}
+
+.thumb.puzzleInfo .puzzleInfoContent {
+    padding: 1rem .3rem
+}
+
+.thumb .progressIcon {
+    height: 55px;
+    margin: .3em auto .5em;
+    width: 55px;
+    min-width: 55px
+}
+
+.thumb .date {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 18.2px;
+    line-height: 1.1375rem
+}
+
+.thumb .printTool {
+    justify-content: center;
+    background-color: #fff;
+    padding-bottom: 10px
+}
+
+.thumb .printTool>a,
+.thumb .printTool>div {
+    padding: 0 5px
+}
+
+.thumb:hover .printTool {
+    display: flex
+}
+
+@media(max-width: 767.98px) {
+    .thumb.puzzleInfo .puzzleInfoContent {
+        height: 75px;
+        flex-direction: row
+    }
+
+    .thumb .progressIcon {
+        order: -1
+    }
+
+    .thumb h3 {
+        align-self: flex-start;
+        margin-left: 10px
+    }
+
+    .thumb .date {
+        position: absolute;
+        top: 39px;
+        left: 70px
+    }
+
+    .thumb:hover .printTool {
+        display: none
+    }
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 23.4px;
+    line-height: 1.4625rem;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 7px 0 0 #2860d8;
+    color: #000;
+    flex-wrap: nowrap;
+    font-family: "nyt-stymie"
+}
+
+.featured.primary hr {
+    width: 40%
+}
+
+@media(max-width: 1199.98px) {
+    .featured.primary .printTool {
+        display: flex;
+        position: absolute;
+        width: 60px;
+        height: 20px;
+        top: 15px;
+        right: 0px
+    }
+}
+
+@media(max-width: 767.98px) {
+    .featured.primary .printTool {
+        display: none
+    }
+}
+
+.upsell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    color: #000;
+    font-family: "nyt-franklin";
+    position: relative;
+    text-align: center;
+    width: 100%
+}
+
+@media(max-width: 385px) {
+    .moar-games-variant .upsell {
+        font-size: 12px;
+        font-size: 0.75rem;
+        line-height: 15.6px;
+        line-height: 0.975rem;
+        line-height: 1
+    }
+}
+
+.upsell .copy {
+    padding: 5px 8px 3px;
+    line-height: 1.2
+}
+
+.upsell .copy b {
+    color: #4d88f9;
+    font-weight: 700
+}
+
+.upsell:hover .copy,
+.upsell:hover .copy b {
+    background-color: #4d88f9;
+    border-radius: 16px;
+    color: #fff
+}
+
+.upsell .halfOff {
+    transform: rotate(45deg);
+    position: absolute;
+    right: -22px;
+    top: 0;
+    border: 25px solid rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-bottom-color: #6dc3a1;
+    height: 0;
+    width: 90px
+}
+
+.upsell .halfOff::after {
+    color: #fff;
+    content: "50% off";
+    font: bold .7em "nyt-franklin";
+    white-space: nowrap;
+    position: absolute;
+    left: -2px;
+    top: 7px
+}
+
+.featured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 23.4px;
+    line-height: 1.4625rem;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 7px 0 0 #2860d8;
+    color: #000;
+    flex-wrap: nowrap;
+    font-family: "nyt-stymie";
+    padding: .7em .2em;
+    width: 250px;
+    height: 100%
+}
+
+.featured.action-subscribe .puzzleInfoContent {
+    color: #959595
+}
+
+.featured.action-subscribe:hover .upsell .copy,
+.featured.action-subscribe:hover .upsell .copy b {
+    background-color: #4d88f9;
+    border-radius: 16px;
+    color: #fff
+}
+
+.featured.hasUpsell .byline {
+    display: none
+}
+
+.featured.hasUpsell a {
+    text-decoration: none
+}
+
+.featured .progressIcon {
+    height: 75px;
+    margin-bottom: .5em;
+    width: 75px
+}
+
+.featured .title {
+    font-size: 35px;
+    font-size: 2.1875rem;
+    line-height: 45.5px;
+    line-height: 2.84375rem;
+    font-family: "nyt-karnakcondensed";
+    width: 100%;
+    margin-top: 8px;
+    padding: 0 20px
+}
+
+@media(min-width: 768px) {
+    .featured {
+        height: 290px
+    }
+
+    .featured.primary {
+        height: 300px
+    }
+}
+
+.featured.standard .date p {
+    line-height: 1.4
+}
+
+@media(min-width: 444px) {
+    .featured.primary {
+        width: 297px
+    }
+
+    .featured.primary .progressIcon {
+        height: 100px;
+        width: 100px
+    }
+
+    .puzzleInfoContent {
+        padding: 0
+    }
+
+    .featured.standard {
+        padding: 0;
+        width: 188px
+    }
+}
+
+@media(min-width: 992px) {
+    .featured .printTool {
+        display: flex;
+        height: 30px;
+        width: 20px;
+        right: 10px;
+        top: 15px;
+        justify-content: flex-end;
+        margin-right: 16px
+    }
+
+    .featured.primary {
+        min-height: 320px;
+        padding: 1.1em 0;
+        width: 470px
+    }
+
+    .featured.primary .puzzleTitle {
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 20.8px;
+        line-height: 1.3rem;
+        line-height: 2.2
+    }
+
+    .featured.primary .progressIcon {
+        height: 100px;
+        width: 100px
+    }
+
+    .featured.standard {
+        padding: 0;
+        width: 208px
+    }
+
+    .button:hover {
+        cursor: pointer;
+        background-color: #fafafa
+    }
+
+    .button:active {
+        box-shadow: 0 3px 0 0 #2860d8;
+        position: relative;
+        top: 3px
+    }
+}
+
+@media(max-width: 767.98px) {
+    .moar-games-variant .featured.loading-card {
+        display: flex
+    }
+
+    .moar-games-variant .featured.loading-card.padding {
+        display: flex
+    }
+
+    .moar-games-variant .featured {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        box-shadow: none;
+        border: solid 1px #dcdcdc
+    }
+
+    .featured .printTool {
+        display: none
+    }
+
+    .featured .title {
+        font-size: 26px;
+        font-size: 1.625rem;
+        line-height: 33.8px;
+        line-height: 2.1125rem;
+        line-height: 1;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        padding: 0
+    }
+
+    .featured.primary {
+        width: 250px
+    }
+
+    .moar-games-variant .featured.primary {
+        width: 100%;
+        padding: 10px
+    }
+
+    .featured.primary .progressIcon {
+        height: 75px;
+        width: 75px
+    }
+
+    .featured.standard {
+        padding: 0;
+        width: 250px
+    }
+
+    .moar-games-variant .featured.standard {
+        width: 100%;
+        padding: 10px
+    }
+}
+
+@media(max-width: 767.98px) {
+    .moar-games-variant .upsell .halfOff {
+        right: -32px
+    }
+}
+
+@media(max-width: 385px) {
+
+    .moar-games-variant .featured,
+    .moar-games-variant .featured.standard,
+    .moar-games-variant .featured.primary {
+        height: 255px
+    }
+
+    .moar-games-variant .featured .title,
+    .moar-games-variant .featured.standard .title,
+    .moar-games-variant .featured.primary .title {
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 24.7px;
+        line-height: 1.54375rem;
+        margin-bottom: 0
+    }
+
+    .moar-games-variant .featured .progressIcon,
+    .moar-games-variant .featured.standard .progressIcon,
+    .moar-games-variant .featured.primary .progressIcon {
+        height: 48px;
+        width: 48px
+    }
+
+    .moar-games-variant .featured .cardRibbon,
+    .moar-games-variant .featured.standard .cardRibbon,
+    .moar-games-variant .featured.primary .cardRibbon {
+        font-size: 12px;
+        font-size: 0.75rem;
+        line-height: 15.6px;
+        line-height: 0.975rem
+    }
+}
+
+@media(max-width: 360px) {
+
+    .moar-games-variant .featured .title,
+    .moar-games-variant .featured.standard .title,
+    .moar-games-variant .featured.primary .title {
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 24.7px;
+        line-height: 1.54375rem;
+        line-height: 1
+    }
+}
+
+@media(max-width: 300px) {
+
+    .moar-games-variant .featured,
+    .moar-games-variant .featured.standard,
+    .moar-games-variant .featured.primary {
+        width: 100%
+    }
+}
+
+.calendar.puzzleInfo.hasGoldStar .date {
+    color: #c4a200;
+    font-weight: 700
+}
+
+.calendar.puzzleInfo .puzzleInfoContent {
+    padding: 20px 0 0
+}
+
+.calendar.puzzleInfo .date {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 18.2px;
+    line-height: 1.1375rem;
+    padding: 10px 0 5px;
+    color: #787886
+}
+
+.calendar.puzzleInfo:hover .printTool {
+    display: flex
+}
+
+.calendar.puzzleInfo .printTool {
+    justify-content: center;
+    background-color: #fff;
+    padding-bottom: 0;
+    padding-top: 5px
+}
+
+.calendar.puzzleInfo .printTool>a,
+.calendar.puzzleInfo .printTool>div {
+    padding: 0 5px
+}
+
+@media(max-width: 767.98px) {
+    .calendar.puzzleInfo .progressIconContent {
+        min-width: 30px;
+        min-height: 30px
+    }
+
+    .calendar.puzzleInfo .puzzleInfoContent {
+        padding: 15px 0 0
+    }
+
+    .calendar.puzzleInfo:hover .printTool {
+        display: none !important
+    }
+
+    .calendar .puzzleAction:hover .cardRibbon:not(.brandNew) {
+        display: none
+    }
+}
+
+.icon.puzzleInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap
+}
+
+.icon.puzzleInfo .progressIcon {
+    height: 48px;
+    width: 48px
+}
+
+.print {
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: contain;
+    height: 20px;
+    width: 20px
+}
+
+.print {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/print.svg")
+}
+
+@media(min-width: 992px) {
+    .print:hover {
+        cursor: pointer
+    }
+
+    .print:hover {
+        background-image: url("https://www.nytimes.com/games-assets/v2/assets/print-black.svg")
+    }
+}
+
+.puzzleAction {
+    color: #000;
+    text-decoration: none;
+    width: 100%
+}
+
+.puzzleAction:hover {
+    cursor: pointer
+}
+
+.puzzleInfo {
+    position: relative
+}
+
+.puzzleInfo.isFake .date {
+    color: #ccc
+}
+
+.puzzleInfo .puzzleInfoContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    color: #000;
+    flex-wrap: nowrap;
+    text-align: center;
+    text-decoration: none
+}
+
+.moar-games-variant .puzzleInfo .puzzleInfoContent {
+    padding: 40px 0 24px
+}
+
+@media(max-width: 385px) {
+    .moar-games-variant .puzzleInfo .puzzleInfoContent {
+        padding: 30px 0 24px
+    }
+}
+
+.moar-games-variant .puzzleInfo.hasUpsell .puzzleInfoContent {
+    padding-bottom: 0
+}
+
+@media(max-width: 375.98px) {
+    .moar-games-variant .puzzleInfo.hasUpsell .puzzleInfoContent {
+        padding-bottom: 0
+    }
+}
+
+.puzzleInfo * {
+    line-height: 1.5
+}
+
+.title,
+.oneLiner {
+    font-family: "nyt-karnakcondensed"
+}
+
+.title {
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 28.6px;
+    line-height: 1.7875rem
+}
+
+.oneLiner {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 23.4px;
+    line-height: 1.4625rem;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.date {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20.8px;
+    line-height: 1.3rem;
+    font-family: "nyt-franklin";
+    font-weight: 200
+}
+
+@media(max-width: 385px) {
+    .moar-games-variant .date {
+        font-size: 14px;
+        font-size: 0.875rem;
+        line-height: 18.2px;
+        line-height: 1.1375rem
+    }
+}
+
+hr {
+    background: #e6e6e6;
+    border: 0;
+    height: 1px;
+    width: 80%
+}
+
+.byline {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 18.2px;
+    line-height: 1.1375rem;
+    color: #959595;
+    font-family: "nyt-franklin";
+    font-weight: 200;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden
+}
+
+@media(max-width: 385px) {
+    .moar-games-variant .byline {
+        font-size: 12px;
+        font-size: 0.75rem;
+        line-height: 15.6px;
+        line-height: 0.975rem
+    }
+}
+
+.printTool {
+    display: none
+}
+
+.progressIcon {
+    position: relative
+}
+
+@media(min-width: 992px) {
+    .puzzleAction:hover .printTool {
+        display: flex
+    }
+}
+
+.cardRibbon {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "nyt-franklin";
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    min-width: 135%;
+    padding: 0 10px;
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 15.6px;
+    line-height: 0.975rem
+}
+
+.cardRibbon span {
+    position: relative;
+    z-index: 1
+}
+
+.cardRibbon::before,
+.cardRibbon::after {
+    width: 55%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/hover-ribbon-bright.svg");
+    background-repeat: no-repeat;
+    background-size: auto 100%
+}
+
+.cardRibbon::before {
+    left: 0
+}
+
+.cardRibbon::after {
+    right: 0;
+    background-position: right
+}
+
+.cardRibbon.brandNew {
+    display: block
+}
+
+.cardRibbon.brandNew::before,
+.cardRibbon.brandNew::after {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/puzzle-progress/hover-ribbon-dark.svg")
+}
+
+.puzzleAction:hover .cardRibbon {
+    display: block
+}
+
+@media(max-width: 767.98px) {
+    .featured .cardRibbon {
+        display: block
+    }
+}
+
+.featured .cardRibbon {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 19.5px;
+    line-height: 1.21875rem
+}
+
+@media(max-width: 360px) {
+    .featured .cardRibbon {
+        font-size: 12px;
+        font-size: 0.75rem;
+        line-height: 15.6px;
+        line-height: 0.975rem
+    }
+}
+
+.progressIconContent {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 48px;
+    min-width: 48px;
+    height: 100%
+}
+
+.thumb .streakAfter::before,
+.calendar .streakBefore::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 6px;
+    right: 100%;
+    bottom: auto;
+    top: 50%;
+    margin-top: -4px;
+    background-color: #c4a200
+}
+
+.thumb .streakBefore::after,
+.calendar .streakAfter::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 6px;
+    left: 100%;
+    top: 50%;
+    margin-top: -4px;
+    background-color: #c4a200
+}
+
+.calendar .streakBefore::before {
+    width: 30px
+}
+
+.calendar .streakAfter::after {
+    width: 30px
+}
+
+@media(max-width: 767.98px) {
+    .thumb .streakAfter::before {
+        width: 6px;
+        height: 11px;
+        top: -11px;
+        left: 24px;
+        bottom: auto;
+        margin-top: 0
+    }
+
+    .thumb .streakBefore::after {
+        width: 6px;
+        height: 11px;
+        bottom: -11px;
+        left: 24px;
+        top: auto;
+        margin-top: 0
+    }
+}
+
+@media(max-width: 600px) {
+    .calendar .streakBefore::before {
+        width: 20px
+    }
+
+    .calendar .streakAfter::after {
+        width: 20px
+    }
+}
+
+@media(max-width: 350px) {
+    .calendar .streakBefore::before {
+        display: none
+    }
+
+    .calendar .streakAfter::after {
+        display: none
+    }
+}
+
+.hub-promo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    width: 208px;
+    height: 290px;
+    padding: 52px 4px 43px;
+    border-radius: 7px;
+    box-shadow: 0 7px 0 0 #2860d8;
+    text-align: center;
+    color: #000
+}
+
+.hub-promo-card:active {
+    box-shadow: 0 3px 0 0 #2860d8;
+    top: 3px
+}
+
+.hub-promo-card:hover {
+    background-color: #fafafa
+}
+
+.hub-promo-card__title {
+    font-size: 35px;
+    font-size: 2.1875rem;
+    line-height: 45.5px;
+    line-height: 2.84375rem;
+    font-family: "nyt-karnakcondensed";
+    margin: 15px auto 10px
+}
+
+.hub-promo-card__icon {
+    position: relative;
+    min-width: 80px;
+    min-height: 77px;
+    bottom: 0;
+    background: url("https://www.nytimes.com/games-assets/v2/assets/expansion-games/spelling-bee-card-icon.svg") center/contain no-repeat;
+    background-size: 100px 100px
+}
+
+.hub-promo-card__description {
+    color: #959595;
+    font-family: "nyt-franklin";
+    font-size: 15px;
+    line-height: 19px;
+    margin: 0 12px;
+    max-width: 90%
+}
+
+@media(max-width: 767.98px) {
+    .hub-promo-card {
+        width: 250px
+    }
+
+    .hub-promo-card__title {
+        font-size: 28px;
+        font-size: 1.75rem;
+        line-height: 36.4px;
+        line-height: 2.275rem
+    }
+
+    .hub-promo-card__description {
+        margin: 0 33px
+    }
+}
+
+.alternate-card-phone.moar-games-variant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 12px
+}
+
+.alternate-card-phone.moar-games-variant .hub-welcome__title {
+    margin-top: 20px
+}
+
+.alternate-card-phone.moar-games-variant .hub-promo-card {
+    box-shadow: none
+}
+
+.hub-mobile-stats__container {
+    display: none;
+    width: 100%;
+    background: #fff;
+    padding: 20px 0;
+    font-family: nyt-franklin, Arial;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc
+}
+
+.hub-mobile-stats__container h2 {
+    font-size: 17px;
+    line-height: 22.1px;
+    font-family: "nyt-stymie";
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.hub-mobile-stats__no-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 18.2px;
+    line-height: 1.1375rem;
+    height: 70px;
+    width: 70px;
+    background-color: #f4f4f4;
+    border-radius: 35px
+}
+
+.hub-mobile-stats__stats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%
+}
+
+.hub-mobile-stats__stats-chart-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.hub-mobile-stats__stats-chart-block>div {
+    width: 35%;
+    text-align: center
+}
+
+.hub-mobile-stats__stats-chart-label {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 19.5px;
+    line-height: 1.21875rem;
+    border-bottom: 2px solid #e6e6e6
+}
+
+.hub-mobile-stats__stats-bars-block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 5px;
+    height: 105px;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative
+}
+
+.hub-mobile-stats__stats-bars-block.hub-mobile-stats__no-stats-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap
+}
+
+.hub-mobile-stats__stats-bars-grey--xshort {
+    background-color: #e6e6e6;
+    height: 20px;
+    width: 35px;
+    margin-bottom: 2px
+}
+
+.hub-mobile-stats__stats-bars-grey--short {
+    background-color: #e6e6e6;
+    height: 20px;
+    width: 60px;
+    margin-bottom: 2px
+}
+
+.hub-mobile-stats__stats-loading {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end
+}
+
+.hub-mobile-stats__best {
+    width: calc(100% / 3);
+    position: relative;
+    min-height: 15px;
+    background-color: #ffc600
+}
+
+.hub-mobile-stats__best::after {
+    font-size: 10px;
+    font-size: 0.625rem;
+    line-height: 13px;
+    line-height: 0.8125rem;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    top: 3px;
+    left: 0
+}
+
+@supports(-ms-ime-align: auto) {
+    .hub-mobile-stats__best::after {
+        top: 0
+    }
+}
+
+.hub-mobile-stats__best::after {
+    content: "Best"
+}
+
+.hub-mobile-stats__today {
+    width: calc(100% / 3);
+    position: relative;
+    min-height: 15px;
+    background-color: #f93aa7
+}
+
+.hub-mobile-stats__today::after {
+    font-size: 10px;
+    font-size: 0.625rem;
+    line-height: 13px;
+    line-height: 0.8125rem;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    top: 3px;
+    left: 0
+}
+
+@supports(-ms-ime-align: auto) {
+    .hub-mobile-stats__today::after {
+        top: 0
+    }
+}
+
+.hub-mobile-stats__today::after {
+    content: "Today"
+}
+
+.hub-mobile-stats__time {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 18.2px;
+    line-height: 1.1375rem;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    top: -16px;
+    left: 0
+}
+
+.hub-mobile-stats__stats-more {
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 16.9px;
+    line-height: 1.05625rem;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    padding: 7px 14px 4px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    text-decoration: none
+}
+
+@media(max-width: 767.98px) {
+    .hub-mobile-stats__container {
+        display: block
+    }
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .hub-mobile-stats__time {
+        top: -19px
+    }
+}
+
+@supports(-ms-ime-align: auto) {
+    .hub-mobile-stats__time {
+        top: -19px
+    }
+}
+
+.hub-mobile-stats__no-upsell-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%
+}
+
+.hub-mobile-stats__chart-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.hub-mobile-stats__bars-block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 80%;
+    margin-bottom: 5px;
+    height: 105px;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative
+}
+
+.hub-mobile-stats__bars-block .grey {
+    width: 50px;
+    background-color: #e6e6e6;
+    position: relative;
+    min-height: 15px
+}
+
+.hub-mobile-stats__bars-block .grey:nth-child(1) {
+    height: 40px;
+    border-right: 2px solid #fff
+}
+
+.hub-mobile-stats__bars-block .grey:nth-child(2) {
+    height: 55px;
+    border-right: 2px solid #fff
+}
+
+.hub-mobile-stats__bars-block .grey:nth-child(3) {
+    height: 75px
+}
+
+.hub-mobile-stats__sub-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #4f85e5;
+    padding: 9px 24px 8px;
+    border-radius: 18px
+}
+
+.hub-stats-card__puzzle-info {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 23.4px;
+    line-height: 1.4625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-family: "nyt-franklin";
+    color: #000;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 7px 0 0 #2860d8;
+    flex-wrap: nowrap;
+    height: 300px;
+    width: 250px;
+    padding: .7em .2em;
+    position: relative
+}
+
+.hub-stats-card__puzzle-info-content {
+    width: 90%;
+    margin-top: -30px;
+    color: #000;
+    padding: 0;
+    text-align: center
+}
+
+.hub-stats-card__title,
+.hub-stats-card__streak-title {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20.8px;
+    line-height: 1.3rem;
+    width: 100%;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 5px
+}
+
+.hub-stats-card__streak-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    border-top: 1px solid #f4f4f4;
+    width: 100%
+}
+
+.hub-stats-card__streak-info {
+    font-size: 25px;
+    font-size: 1.5625rem;
+    line-height: 32.5px;
+    line-height: 2.03125rem;
+    font-weight: 700;
+    width: calc(100% / 2);
+    padding: 5px 0
+}
+
+.hub-stats-card__streak-info:first-child {
+    border-right: 1px solid #f4f4f4
+}
+
+.hub-stats-card__streak-type {
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 15.6px;
+    line-height: 0.975rem;
+    color: #959595;
+    font-weight: 400;
+    text-transform: uppercase
+}
+
+.hub-stats-card__more-stats {
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 16.9px;
+    line-height: 1.05625rem;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    padding: 13px 0 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #f4f4f4;
+    width: 100%;
+    text-align: center
+}
+
+.hub-stats-card__chart-block {
+    margin-bottom: 15px;
+    width: 100%
+}
+
+.hub-stats-card__day-of-week {
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 16.9px;
+    line-height: 1.05625rem;
+    font-weight: 700
+}
+
+.hub-stats-card__bars-block {
+    display: flex;
+    flex-direction: center;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 5px;
+    height: 95px
+}
+
+.hub-stats-card__bar {
+    width: calc(100% / 3);
+    position: relative
+}
+
+.hub-stats-card__bar::after {
+    font-size: 10px;
+    font-size: 0.625rem;
+    line-height: 13px;
+    line-height: 0.8125rem;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    top: 3px;
+    left: 0
+}
+
+.hub-stats-card__bar.today {
+    background-color: #f93aa7
+}
+
+.hub-stats-card__bar.today::after {
+    content: "Today"
+}
+
+.hub-stats-card__bar.best {
+    background-color: #ffc600
+}
+
+.hub-stats-card__bar.best::after {
+    content: "Best"
+}
+
+.hub-stats-card__bar.avg {
+    background-color: #4d88f9
+}
+
+.hub-stats-card__bar.avg::after {
+    content: "Avg"
+}
+
+.hub-stats-card__time {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 18.2px;
+    line-height: 1.1375rem;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    top: -16px;
+    left: 0
+}
+
+.hub-stats-card__no-stats {
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 16.9px;
+    line-height: 1.05625rem;
+    color: #959595;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+    align-self: center
+}
+
+.hub-stats-card__no-streaks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 59px;
+    margin: .8em 0 0
+}
+
+@media(min-width: 444px) {
+    .hub-stats-card__puzzle-info {
+        padding: 0;
+        height: 290px;
+        width: 188px
+    }
+}
+
+@media(min-width: 992px) {
+    .hub-stats-card__puzzle-info {
+        padding: 0;
+        height: 290px;
+        width: 208px
+    }
+
+    .hub-stats-card__puzzle-info:hover {
+        cursor: pointer;
+        background-color: #fafafa
+    }
+
+    .hub-stats-card__puzzle-info:active {
+        box-shadow: 0 3px 0 0 #2860d8;
+        margin-top: 14px
+    }
+}
+
+@media(max-width: 767.98px) {
+    .hub-stats-card__streak-title {
+        padding: 5px 0 0;
+        line-height: 1rem;
+        border-bottom: none
+    }
+
+    .hub-stats-card__puzzle-info {
+        display: none;
+        padding: 0;
+        height: 300px;
+        width: 250px
+    }
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .hub-stats-card__streak-block {
+        padding-bottom: 5px
+    }
+
+    .hub-stats-card__time {
+        top: -19px
+    }
+
+    .hub-stats-card__bar::after {
+        top: 7px
+    }
+}
+
+@supports(-ms-ime-align: auto) {
+    .hub-stats-card__streak-block {
+        padding-bottom: 5px
+    }
+
+    .hub-stats-card__time {
+        top: -19px
+    }
+
+    .hub-stats-card__bar::after {
+        top: 0
+    }
+}
+
+.hub-link {
+    display: block
+}
+
+.ios {
+    width: 170px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/download-app-store.svg")
+}
+
+.android {
+    width: 170px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/download-google-play.png")
+}
+
+.hub-wordplay-link {
+    font-size: 12.5px;
+    font-size: 0.78125rem;
+    line-height: 16.25px;
+    line-height: 1.015625rem;
+    display: block;
+    font-family: "nyt-franklin";
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    height: 27px;
+    line-height: 27px;
+    padding: 0 25px
+}
+
+.hub-wordplay-link::after {
+    content: " on Wordplay"
+}
+
+.hub-wordplay-link:hover {
+    background-color: #2860d8;
+    border-radius: 13px;
+    text-decoration: none
+}
+
+@media(max-width: 767.98px) {
+    .hub-wordplay-link {
+        background-color: #2860d8;
+        border-radius: 13px;
+        text-decoration: none
+    }
+
+    .hub-wordplay-link::after {
+        content: ""
+    }
+
+    .moar-games-variant .hub-wordplay-link {
+        color: #000;
+        text-transform: none;
+        font-size: 14px;
+        font-size: 0.875rem;
+        line-height: 18.2px;
+        line-height: 1.1375rem;
+        font-weight: 500;
+        line-height: 1;
+        height: auto;
+        background-color: #fff;
+        border-radius: 25px;
+        border: 1px solid #ccc;
+        padding: 15px 25px
+    }
+
+    .moar-games-variant .hub-wordplay-link:hover {
+        background-color: #eee;
+        text-decoration: none
+    }
+}
+
+.hub-wrap-message {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #2860d8;
+    width: 950px;
+    max-width: 90vw
+}
+
+.moar-games-variant .hub-wrap-message {
+    border-color: #dcdcdc
+}
+
+.hub-streak-encouragement {
+    display: inline-block;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20.8px;
+    line-height: 1.3rem;
+    font-family: "nyt-franklin";
+    color: #fff
+}
+
+.moar-games-variant .hub-streak-encouragement {
+    color: #000
+}
+
+.hub-streak-encouragement::before {
+    content: "";
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 2px;
+    vertical-align: middle;
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/mini-star.svg");
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #e2c32f
+}
+
+.hub-streak-encouragement>span {
+    margin-right: 5px
+}
+
+.hub-streak-encouragement>strong {
+    font-size: 12.5px;
+    font-size: 0.78125rem;
+    line-height: 16.25px;
+    line-height: 1.015625rem;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff
+}
+
+.moar-games-variant .hub-streak-encouragement>strong {
+    color: #000
+}
+
+@media(max-width: 767.98px) {
+    .hub-wrap-message {
+        display: inline-block;
+        width: auto
+    }
+
+    .hub-streak-encouragement {
+        text-align: left;
+        line-height: 18px;
+        padding-left: 44px;
+        position: relative
+    }
+
+    .hub-streak-encouragement::before {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(0, -54%);
+        width: 30px;
+        height: 30px
+    }
+
+    .hub-streak-encouragement>span {
+        display: block;
+        margin-bottom: 2px;
+        margin-right: 0
+    }
+
+    .hub-streak-encouragement>strong {
+        display: block
+    }
+}
+
+@media(max-width: 350px) {
+    .hub-streak-encouragement {
+        text-align: center;
+        padding-left: 0
+    }
+
+    .hub-streak-encouragement::before {
+        display: none
+    }
+
+    .hub-streak-encouragement>span {
+        display: block;
+        margin-bottom: 6px
+    }
+}
+
+.hub-welcome {
+    padding: 15px 0;
+    background-color: #4d88f9
+}
+
+.hub-welcome__title {
+    display: none;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 23.4px;
+    line-height: 1.4625rem;
+    text-align: center;
+    font-family: "nyt-stymie";
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 20px
+}
+
+.hub-welcome__title.today {
+    margin-bottom: 0
+}
+
+.hub-welcome-sections {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-wrap: wrap
+}
+
+.hub-welcome__section {
+    margin: 15px
+}
+
+.hub-welcome__section.promoted-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    text-align: center
+}
+
+.hub-welcome__section.alternate-phone,
+.hub-welcome__section.download-app {
+    display: none
+}
+
+.hub-welcome__section.mini {
+    order: 1
+}
+
+.hub-welcome__section.daily {
+    order: 2
+}
+
+.hub-welcome__section.alternate {
+    order: 3
+}
+
+.hub-welcome__section.alternate-phone {
+    order: 3
+}
+
+.hub-welcome__section.promoted-links {
+    order: 4
+}
+
+@media(max-width: 767.98px) {
+    .hub-welcome {
+        padding: 30px 0
+    }
+
+    .hub-welcome__title {
+        display: block
+    }
+
+    .hub-welcome-sections {
+        flex-direction: column
+    }
+
+    .hub-welcome__section.mini {
+        order: 1
+    }
+
+    .hub-welcome__section.daily {
+        order: 2
+    }
+
+    .hub-welcome__section.promoted-links {
+        order: 3
+    }
+
+    .hub-welcome__section.alternate {
+        display: none;
+        order: 4
+    }
+
+    .hub-welcome__section.alternate-phone {
+        display: block;
+        order: 4
+    }
+
+    .promote-daily .daily {
+        order: 1
+    }
+
+    .promote-daily .promoted-links {
+        order: 2
+    }
+
+    .promote-daily .mini {
+        order: 3
+    }
+}
+
+@media(max-width: 1199.98px) {
+    .hub-welcome__section {
+        margin: 20px 10px
+    }
+
+    .promoted-links {
+        margin-top: 5px;
+        margin-bottom: 25px
+    }
+}
+
+@media(max-width: 767.98px) {
+    .hub-welcome__section.download-app {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-top: 40px
+    }
+
+    .hub-welcome__section.promoted-links {
+        width: auto
+    }
+}
+
+@media(max-width: 767.98px) {
+    .moar-games-variant.hub-welcome {
+        background-color: #f4f4f4
+    }
+
+    .moar-games-variant .hub-welcome__title {
+        display: block;
+        color: #000;
+        font-size: 28px;
+        font-size: 1.75rem;
+        line-height: 36.4px;
+        line-height: 2.275rem;
+        font-family: "nyt-karnakcondensed"
+    }
+
+    .moar-games-variant .hub-welcome-sections {
+        margin: 15px 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-between;
+        flex-wrap: wrap
+    }
+
+    .moar-games-variant .hub-welcome__section {
+        width: calc(50% - 10px);
+        margin: 0
+    }
+
+    .moar-games-variant .hub-welcome__section>div {
+        height: 100%
+    }
+
+    .moar-games-variant .hub-welcome__section .loading-card {
+        height: 300px
+    }
+
+    .moar-games-variant .hub-welcome__section.promoted-links {
+        margin: 20px auto
+    }
+
+    .moar-games-variant .hub-welcome__section.download-app,
+    .moar-games-variant .hub-welcome__section.promoted-links,
+    .moar-games-variant .hub-welcome__section.games-section {
+        width: 100%
+    }
+
+    .moar-games-variant .hub-welcome__section.mini {
+        order: 1
+    }
+
+    .moar-games-variant .hub-welcome__section.daily {
+        order: 2
+    }
+
+    .moar-games-variant .hub-welcome__section.promoted-links {
+        order: 3
+    }
+
+    .moar-games-variant .hub-welcome__section.games-section {
+        order: 4
+    }
+
+    .moar-games-variant.promote-daily .hub-welcome__section.daily {
+        order: 1
+    }
+
+    .moar-games-variant.promote-daily .hub-welcome__section.mini {
+        order: 2
+    }
+
+    .moar-games-variant.promote-daily .hub-welcome__section.promoted-links {
+        order: 3
+    }
+
+    .moar-games-variant.promote-daily .hub-welcome__section.games-section {
+        order: 4
+    }
+}
+
+@media(max-width: 360px) {
+    .moar-games-variant .hub-welcome__title {
+        font-size: 22px;
+        font-size: 1.375rem;
+        line-height: 28.6px;
+        line-height: 1.7875rem
+    }
+
+    .moar-games-variant .hub-welcome__section {
+        width: calc(50% - 5px)
+    }
+}
+
+@media(max-width: 385px) {
+    .moar-games-variant .hub-welcome__section>div {
+        height: 100%
+    }
+
+    .moar-games-variant .hub-welcome__section .loading-card {
+        height: 255px
+    }
+}
+
+.moar-games-variant {
+    padding: 40px 0 24px
+}
+
+@media(max-width: 385px) {
+    .moar-games-variant {
+        padding: 30px 0 24px
+    }
+}
+
+.progress__sectionHeader {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 23.4px;
+    line-height: 1.4625rem;
+    font-family: "nyt-stymie";
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    text-align: center
+}
+
+@media(max-width: 767.98px) {
+    .progress__sectionHeader {
+        margin-bottom: 0
+    }
+}
+
+.progress__recentlyTabbedModule {
+    width: 70%;
+    margin-top: 24px
+}
+
+.progress__mobileOnly {
+    display: none
+}
+
+.progress__desktopOnly {
+    display: block
+}
+
+.progress__tabGroup {
+    display: block;
+    min-height: 228px
+}
+
+.progress__noProgress {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20.8px;
+    line-height: 1.3rem;
+    font-family: "nyt-franklin";
+    text-align: center;
+    color: #333;
+    padding: 15px
+}
+
+.progress__noProgress p {
+    margin-bottom: 5px
+}
+
+.progress__playMoreLink {
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 16.9px;
+    line-height: 1.05625rem;
+    color: #000;
+    font-family: "nyt-franklin";
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0 12px;
+    line-height: 28px;
+    height: 28px;
+    border-radius: 13px;
+    display: inline-block;
+    max-width: 250px;
+    text-align: center
+}
+
+.progress__playMoreLink:hover {
+    background: #f4f4f4
+}
+
+.progress__noProgressContainer {
+    display: flex;
+    align-items: center;
+    vertical-align: middle
+}
+
+@media(max-width: 767.98px) {
+    .progress__recentlyTabbedModule {
+        margin-bottom: 20px;
+        width: 100%;
+        margin-top: unset;
+        display: flex;
+        flex-direction: column
+    }
+
+    .progress__playMoreLink {
+        margin: 8px 12px
+    }
+
+    .progress__mobileOnly {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .progress__mobileOnly .accordion__drawer {
+        width: 100%
+    }
+
+    .progress__desktopOnly {
+        display: none
+    }
+
+    .progress__tabGroup {
+        display: none
+    }
+
+    .progress__accordionContent {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 160px;
+        margin: 0 auto;
+        padding: 10px
+    }
+}
+
+.accordion__drawer {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.accordion__drawer.isClosed+.accordion__drawer .accordion__drawerTitle {
+    border-top: 1px solid rgba(0, 0, 0, 0)
+}
+
+div.accordion__drawer,
+div.accordion__drawerContent {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.accordion__drawerTitle {
+    position: relative;
+    color: #000;
+    background-color: #fff;
+    font-family: nyt-stymie, Georgia;
+    font-weight: 700;
+    height: 44px;
+    line-height: 44px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    transition: background-color 120ms ease;
+    overflow: hidden
+}
+
+.accordion__drawerTitle:active {
+    background: #dcefff
+}
+
+.accordion__drawerTitle::after {
+    color: #dcdcdc;
+    content: "+";
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 26px;
+    line-height: 1.625rem;
+    transition: transform 270ms ease;
+    line-height: 44px;
+    height: 44px;
+    width: 44px;
+    text-align: center;
+    position: absolute;
+    right: 0
+}
+
+.accordion__drawerContent {
+    background-color: #fafafa;
+    transition: max-height 270ms ease;
+    max-height: 0;
+    overflow: hidden
+}
+
+.accordion__drawer.isOpen .accordion__drawerTitle::after {
+    transform: rotate(-135deg)
+}
+
+.accordion__drawer.isOpen .accordion__drawerContent {
+    max-height: 1500px
+}
+
+@media(max-width: 767.98px) {
+    .accordianContent {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 160px;
+        margin: 0 auto;
+        padding: 10px
+    }
+}
+
+.section__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 24px 5%;
+    position: relative
+}
+
+.section__section .section__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 100%
+}
+
+.section__section.blue {
+    background-color: #4d88f9;
+    padding: 1em 5% 5em
+}
+
+@media(max-width: 767.98px) {
+    .section__section {
+        padding: 0
+    }
+
+    .section__section .section__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap
+    }
+
+    .section__section>div {
+        margin: 0
+    }
+
+    .section__section article {
+        margin: 2% auto
+    }
+
+    .section__section.blue {
+        padding-bottom: 2em
+    }
+}
+
+@media(min-width: 992px) {
+    .section__section {
+        padding: 24px 1%
+    }
+
+    .section__section.blue {
+        min-height: 430px
+    }
+
+    .section__section .section__container {
+        max-width: 960px
+    }
+}
+
+.section__header {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 23.4px;
+    line-height: 1.4625rem;
+    font-family: "nyt-stymie";
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    text-align: center
+}
+
+@media(max-width: 767.98px) {
+    .section__header {
+        margin-bottom: 0
+    }
+}
+
+.tab__tabGroup {
+    font-family: nyt-franklin, Arial, helvetica, arial, sans-serif;
+    position: relative;
+    width: 100%
+}
+
+.tab__tabGroup .tab__tabNav {
+    width: 100%;
+    height: 38px;
+    background-color: #f4f4f4;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px
+}
+
+.tab__tabGroup .tab__tabNavItems {
+    padding: 0 20px
+}
+
+.tab__tabGroup .tab__tabBody {
+    min-height: 162px;
+    width: 100%;
+    overflow: hidden
+}
+
+.tab__tabGroup .tab__tab {
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    color: #959595;
+    height: 36px;
+    line-height: 38px;
+    padding: 0 5%;
+    max-width: 33.3333%;
+    cursor: pointer
+}
+
+.tab__tabGroup .tab__tab span {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.tab__tabGroup .tab__tab>.active {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    padding: 0 5px;
+    border: 1px solid #dcdcdc;
+    border-bottom: 0;
+    border-radius: 3px 3px 0 0;
+    height: 45px;
+    line-height: 52px;
+    color: #000;
+    background-color: #fff;
+    font-weight: 700
+}
+
+@media(min-width: 992px) {
+    .tab__tabGroup .tab__tab:hover {
+        cursor: pointer;
+        color: #000
+    }
+}
+
+@media(max-width: 767.98px) {
+    .tab__tabGroup .tab__tab {
+        padding: 0 3%
+    }
+
+    .tab__tabGroup .tab__tabNavItems {
+        padding: 0 5px
+    }
+}
+
+@media(max-width: 767.98px) {
+
+    .hideOn.phone,
+    .showOn:not(.phone) {
+        display: none
+    }
+}
+
+@media(min-width: 768px)and (max-width: 991.98px) {
+
+    .hideOn.tablet,
+    .showOn:not(.tablet) {
+        display: none
+    }
+}
+
+@media(min-width: 992px) {
+
+    .hideOn.desktop,
+    .showOn:not(.desktop) {
+        display: none
+    }
+}
+
+@media(min-width: 444px)and (max-width: 767.98px) {
+
+    .hideOn.smallDevice,
+    .showOn:not(.smallDevice) {
+        display: none
+    }
+}
+
+.hub-expand-to-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-top: 10px
+}
+
+.hub-puzzle-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    display: block
+}
+
+.hub-section-header {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 23.4px;
+    line-height: 1.4625rem;
+    font-family: "nyt-stymie";
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    text-align: center
+}
+
+.hub-puzzle-group__more-link {
+    text-align: center;
+    margin: 30px 0
+}
+
+.hub-puzzle-group__more-link a {
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 16.9px;
+    line-height: 1.05625rem;
+    color: #000;
+    font-family: "nyt-franklin";
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0 12px;
+    line-height: 29px;
+    height: 28px;
+    border-radius: 13px;
+    display: inline-block
+}
+
+.hub-puzzle-group__more-link a:hover {
+    background: #f4f4f4
+}
+
+@media(min-width: 444px) {
+    .hub-expand-to-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: nowrap
+    }
+}
+
+@media(max-width: 767.98px) {
+    .mobileColumn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap
+    }
+
+    .hub-section-header {
+        margin-bottom: 0
+    }
+
+    .hub-puzzle-group__more-link {
+        margin: 10px 0 20px
+    }
+
+    .hub-puzzle-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin: 30px 0;
+        max-width: 420px;
+        margin-top: 20px
+    }
+
+    .hub-puzzle-group h2 {
+        margin: 0 auto 20px
+    }
+
+    .hub-puzzle-group>div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+        max-width: 380px;
+        margin-bottom: 0
+    }
+
+    .hub-puzzle-group>div>div {
+        margin-bottom: 28px
+    }
+}
+
+.hub-guide-promo-section {
+    width: 100%;
+    max-width: 918px
+}
+
+.hub-guide-promo-content {
+    padding: 10px 0 0
+}
+
+.hub-guide-promo-card {
+    margin: 0 14px;
+    display: block;
+    height: 260px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: solid 1px #dcdcdc
+}
+
+.hub-guide-promo-card:hover {
+    box-shadow: 2px 2px 0 0 #e6e6e6
+}
+
+.hub-guide-promo-card-illustration {
+    float: left;
+    width: 63%;
+    height: 100%;
+    background: url("https://www.nytimes.com/games-assets/guide-promo-005.jpg");
+    background-size: cover;
+    background-position: left
+}
+
+.hub-guide-promo-card-content {
+    float: right;
+    padding: 26px 20px;
+    background-color: #fff;
+    height: 100%;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20.8px;
+    line-height: 1.3rem;
+    font-family: "nyt-franklin";
+    color: #959595
+}
+
+.hub-guide-promo-card-content p {
+    margin-bottom: .5rem
+}
+
+.hub-guide-promo-card-content .hub-guide-promo-link {
+    color: #2860d8;
+    display: inline-block
+}
+
+.hub-guide-promo-card-content h2 {
+    font-size: 28px;
+    font-size: 1.75rem;
+    line-height: 36.4px;
+    line-height: 2.275rem;
+    font-family: "NYT-KarnakCondensed";
+    line-height: 1.1;
+    color: #000;
+    text-align: left;
+    margin-bottom: 12px
+}
+
+.hub-guide-promo-card-content {
+    width: 37%
+}
+
+@media(max-width: 767.98px) {
+    .hub-guide-promo-section {
+        margin-top: 30px;
+        max-width: 378px
+    }
+
+    .hub-guide-promo-content {
+        padding: 20px 0 0
+    }
+
+    .hub-guide-promo-card {
+        height: auto
+    }
+
+    .hub-guide-promo-card-illustration {
+        float: none;
+        width: auto
+    }
+
+    .hub-guide-promo-card-illustration {
+        height: 260px
+    }
+
+    .hub-guide-promo-card-content {
+        float: none;
+        width: auto
+    }
+}
+
+.pz-mobile .hub-our-games {
+    margin-bottom: 16px
+}
+
+.hub-our-games__container {
+    margin-top: 24px
+}
+
+.hub-our-games__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    margin-top: 10px;
+    padding: 0 10%
+}
+
+.pz-newsreader .hub-our-games__content {
+    grid-template-columns: 1fr
+}
+
+@media(min-width: 768px) {
+    .hub-our-games__content {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+        padding: 0
+    }
+}
+
+@media(min-width: 992px) {
+    .hub-our-games__content {
+        max-width: 890px;
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+.hub-game-card.hub-dual-link:hover {
+    cursor: auto;
+    box-shadow: none
+}
+
+.hub-game-card.hub-dual-link:hover .hub-game-card__button {
+    background: #fff
+}
+
+.hub-game-card.hub-dual-link .hub-game-card__button:first-child {
+    margin-bottom: .8rem
+}
+
+.hub-game-card.hub-dual-link .hub-game-card__button:hover {
+    background: #fafafa;
+    box-shadow: none
+}
+
+.hub-game-card .hub-game-card__button__withPill {
+    position: relative;
+    overflow: visible
+}
+
+.moar-games-variant .hub-game-card.hub-dual-link .hub-game-card__content {
+    padding-top: 20px
+}
+
+.hub-game-card {
+    border-radius: 8px;
+    border: solid 1px #dcdcdc;
+    background: #fff;
+    text-align: center;
+    overflow: hidden
+}
+
+.hub-game-card .js-hub-tracker {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 100%
+}
+
+.hub-game-card:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 0 0 #e6e6e6
+}
+
+.hub-game-card.subscribe .hub-game-card__illustration,
+.hub-game-card.subscribe .hub-game-card__name {
+    opacity: .5
+}
+
+.hub-game-card.subscribe .hub-game-card__button {
+    font-weight: 500
+}
+
+.hub-game-card__cover {
+    padding-top: 30px;
+    background-color: #e3e3e1
+}
+
+.letter-boxed .hub-game-card__cover {
+    background-color: #fc716b
+}
+
+.spelling-bee .hub-game-card__cover {
+    background-color: #f7da21
+}
+
+.sudoku .hub-game-card__cover {
+    background-color: #fb9b00
+}
+
+.tiles .hub-game-card__cover {
+    background: #b5e352
+}
+
+.connections .hub-game-card__cover {
+    background: #b4a8ff
+}
+
+.strands .hub-game-card__cover {
+    background: #c0ddd9
+}
+
+.hub-game-card__illustration {
+    height: 92px;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.mini .hub-game-card__illustration {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/mini-progress/mini-progress-0.svg");
+}
+
+.letter-boxed .hub-game-card__illustration {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/expansion-games/letter-boxed-card-icon.svg")
+}
+
+.spelling-bee .hub-game-card__illustration {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/expansion-games/spelling-bee-card-icon.svg")
+}
+
+.sudoku .hub-game-card__illustration {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/expansion-games/sudoku-card-icon.svg")
+}
+
+.tiles .hub-game-card__illustration {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/expansion-games/tiles-card-icon.svg")
+}
+
+.wordle .hub-game-card__illustration {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/expansion-games/wordle-card-icon.svg")
+}
+
+.connections .hub-game-card__illustration {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/expansion-games/connections.svg")
+}
+
+.strands .hub-game-card__illustration {
+    background-image: url("https://www.nytimes.com/games-assets/v2/assets/expansion-games/strands.svg")
+}
+
+.hub-game-card__name {
+    font-size: 28px;
+    font-size: 1.75rem;
+    line-height: 36.4px;
+    line-height: 2.275rem;
+    font-family: "nyt-karnakcondensed";
+    line-height: 1.1;
+    padding: 16px 0 25px;
+    color: #000
+}
+
+.hub-game-card__description {
+    color: #959595;
+    margin: 0 0 15px;
+    line-height: 20px
+}
+
+.hub-game-card__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20.8px;
+    line-height: 1.3rem;
+    border-radius: 44px;
+    letter-spacing: .25px;
+    height: 44px;
+    color: #333;
+    border: 1px solid #ccc;
+    font-weight: 700
+}
+
+.hub-game-card:hover .hub-game-card__button {
+    background: #fafafa
+}
+
+.hub-game-card__content {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20.8px;
+    line-height: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+    padding: 20px;
+    font-family: "nyt-franklin"
+}
+
+.moar-games-variant .hub-our-games__container {
+    margin-top: 0
+}
+
+.moar-games-variant .hub-our-games__content {
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 100%
+}
+
+.moar-games-variant .hub-game-card {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column
+}
+
+.moar-games-variant .hub-game-card__cover {
+    padding-top: 22px;
+    flex: 0 1
+}
+
+.moar-games-variant .hub-game-card__illustration {
+    height: 62px;
+    background-size: contain
+}
+
+.moar-games-variant .hub-game-card__content {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 18.2px;
+    line-height: 1.1375rem;
+    padding: 0;
+    flex: 1
+}
+
+.moar-games-variant .hub-game-card__name {
+    font-size: 19px;
+    font-size: 1.1875rem;
+    line-height: 24.7px;
+    line-height: 1.54375rem;
+    line-height: 24px;
+    padding: 4px 0 20px;
+    letter-spacing: .2px
+}
+
+.moar-games-variant .hub-game-card__description {
+    padding: 0 10px;
+    margin: 12px 0 10px
+}
+
+.moar-games-variant .hub-game-card__button {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 18.2px;
+    line-height: 1.1375rem;
+    margin: 0 12px 16px
+}
+
+@media(min-width: 444px) {
+    .moar-games-variant .hub-our-games__content {
+        max-width: 768px
+    }
+
+    .moar-games-variant .hub-game-card__cover {
+        padding-top: 23px
+    }
+
+    .moar-games-variant .hub-game-card__illustration {
+        height: 71px;
+        background-size: unset
+    }
+
+    .moar-games-variant .hub-game-card__name {
+        font-size: 28px;
+        font-size: 1.75rem;
+        line-height: 36.4px;
+        line-height: 2.275rem;
+        line-height: 1.1;
+        padding: 15px 0 20px;
+        letter-spacing: normal
+    }
+
+    .moar-games-variant .hub-game-card__content {
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 20.8px;
+        line-height: 1.3rem
+    }
+
+    .moar-games-variant .hub-game-card__description {
+        padding: 0 6px;
+        margin: 20px 0 15px
+    }
+
+    .moar-games-variant .hub-game-card__button {
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 20.8px;
+        line-height: 1.3rem;
+        margin: 0 20px 24px
+    }
+}
+
+@media(min-width: 410px) {
+    .moar-games-variant .hub-game-card__name {
+        font-size: 26px;
+        padding: 18px 0 20px
+    }
+
+    .moar-games-variant .hub-game-card__description {
+        font-size: 16px
+    }
+}
+
+#hub-modal {
+    position: fixed;
+    z-index: 100
+}
+
+.hub-print-modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 23.4px;
+    line-height: 1.4625rem;
+    font-weight: 200;
+    width: 100%
+}
+
+.hub-print-modal-content .hub-print-modal-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%
+}
+
+.hub-print-modal-content .hub-print-modal-section {
+    border-top: 1px solid #f4f4f4;
+    padding: 1em 0;
+    width: 100%
+}
+
+.hub-print-modal-content .hub-print-modal-section:first-child {
+    border-top: 0
+}
+
+.hub-print-modal-content .hub-print-modal-section:last-child {
+    padding-bottom: 0
+}
+
+.hub-print-modal-content .hub-print-modal-inset {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20.8px;
+    line-height: 1.3rem;
+    margin-left: 18px
+}
+
+.hub-print-modal-content .hub-print-modal-puzzle-details {
+    border-bottom: 1px solid #f4f4f4;
+    padding: 0 0 1em;
+    text-align: center;
+    width: 100%
+}
+
+.hub-print-modal-content .hub-print-modal-puzzle-details .hub-print-modal-puzzle-title {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 26px;
+    line-height: 1.625rem;
+    font-family: "nyt-stymie";
+    font-weight: 400;
+    line-height: 1.6
+}
+
+.hub-print-modal-content .hub-print-modal-puzzle-details .hub-print-modal-puzzle-date {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20.8px;
+    line-height: 1.3rem;
+    line-height: 1.2
+}
+
+.hub-print-modal-content .hub-print-modal-left {
+    float: left;
+    text-align: left
+}
+
+.hub-print-modal-content .hub-print-modal-cell-darkness {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    float: right;
+    align-items: space-around
+}
+
+.hub-print-modal-content .hub-print-modal-cell-darkness input::-ms-tooltip {
+    display: none
+}
+
+.hub-print-modal-content .hub-print-modal-cell-darkness .hub-print-modal-opacity-icon {
+    height: 50px;
+    margin: .5em 0;
+    position: relative;
+    width: 50px
+}
+
+.hub-print-modal-content .hub-print-modal-cell-darkness .hub-print-modal-opacity-icon .hub-print-modal-opacity-reference {
+    width: 0;
+    height: 0;
+    border: 25px solid rgba(0, 0, 0, 0);
+    border-top-color: #000;
+    border-left-color: #000
+}
+
+.hub-print-modal-content .hub-print-modal-cell-darkness .hub-print-modal-opacity-icon .hub-print-modal-user-opacity {
+    background-color: #000;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    width: 50px
+}
+
+.hub-print-modal-content .hub-print-modal-disabled {
+    opacity: .4
+}
+
+.hub-print-modal-content hr {
+    margin: 1em 0;
+    width: 100%
+}
+
+.hub-print-modal-content label {
+    display: block;
+    margin-bottom: 10px
+}
+
+.hub-print-modal-content label span {
+    margin-left: 5px
+}
+
+.hub-print-modal-content .hub-print-modal-subscript {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 18.2px;
+    line-height: 1.1375rem;
+    color: #959595
+}
+
+.hub-print-modal-content input[disabled] {
+    background-color: #f4f4f4;
+    border-color: #ccc;
+    opacity: 1
+}
+
+.hub-print-modal-content input[disabled]+span {
+    color: #959595
+}
+
+@media(max-width: 767.98px) {
+    .hub-print-modal-left {
+        max-width: 50%;
+        text-align: left
+    }
+}
+
+.hub-print-modal__button-wrapper {
+    padding: 0 15px
+}
+
+@media(min-width: 768px) {
+    .hub-print-modal__button-wrapper {
+        padding: 0 25px
+    }
+}
+
+.hub-print-modal__button-wrapper .pz-modal__button {
+    height: 43px;
+    margin-bottom: 12px
+}
+
+.hub-print-modal__button-wrapper>.hub-print-modal__button-wrapper .pz-modal__button:last-child {
+    margin-bottom: 0
+}
+
+.hub-print-modal__title {
+    border-bottom: 1px solid #f4f4f4;
+    font: bold 17px "nyt-franklin";
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-align: center
+}
+
+.hub-print-modal__button {
+    padding-left: 67px;
+    padding-right: 67px
+}
+
+.hub-sponsored-card__title {
+    font-size: 23px;
+    font-size: 1.4375rem;
+    line-height: 29.9px;
+    line-height: 1.86875rem;
+    line-height: 1.575rem;
+    font-family: "nyt-franklin";
+    font-weight: 700;
+    margin: 5px 0 7px;
+    padding: 0 15px
+}
+
+.hub-sponsored-card__all-caps {
+    text-transform: uppercase
+}
+
+.hub-sponsored-card__supported-by {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    font-size: 11px;
+    font-size: 0.6875rem;
+    line-height: 14.3px;
+    line-height: 0.89375rem;
+    width: 80%;
+    font-family: "nyt-franklin";
+    color: #959595;
+    padding-top: 12px;
+    margin-top: 6px;
+    border-top: 1px solid #e2e2e2
+}
+
+.hub-sponsored-card__supported-by a {
+    padding-top: 12px
+}
+
+.hub-sponsored-card__sponsor {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 38px;
+    width: 171px
+}
+
+@media(max-width: 767.98px) {
+    #hub-root {
+        background-color: #f4f4f4
+    }
+}
+
+.pz-mobile.pz-newsreader.pz-ios .pz-nav {
+    visibility: visible
+}
+
+/*# sourceMappingURL=hub.61eec64e9c7c8d65900a.css.map*/
+
+/* MODS */
+.hub-game-card {
+    min-width: 8em;
+    margin: 0 2em;
+}
+
+div.hub-game-card {
+    margin: 2em;
+}
+
+.css-games_links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

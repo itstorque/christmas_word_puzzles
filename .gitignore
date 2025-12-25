@@ -1,0 +1,5 @@
+scrape/
+deprecated/
+.DS_Store
+*.log
+_site/

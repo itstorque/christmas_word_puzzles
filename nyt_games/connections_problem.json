@@ -1,0 +1,44 @@
+{
+  "status": "OK",
+  "id": 12190,
+  "print_date": "2025-12-25",
+  "editor": "Torque & Sophia",
+  "categories": [
+    {
+      "title": "Streets Lived On",
+      "cards": [
+        {"content": "Jocelyn", "position": 11},
+        {"content": "Rittenhouse", "position": 3},
+        {"content": "Military", "position": 14},
+        {"content": "Fessenden", "position": 6}
+      ]
+    },
+    {
+      "title": "Halloween Costumes",
+      "cards": [
+        {"content": "Artist", "position": 1},
+        {"content": "LEGO", "position": 9},
+        {"content": "Dorothy", "position": 15},
+        {"content": "Detective", "position": 4}
+      ]
+    },
+    {
+      "title": "Multi-Player Games",
+      "cards": [
+        {"content": "TAG", "position": 0},
+        {"content": "scan", "position": 7},
+        {"content": "Clue", "position": 12},
+        {"content": "Twister", "position": 2}
+      ]
+    },
+    {
+      "title": "One Letter Away from Schools Attended",
+      "cards": [
+        {"content": "March", "position": 10},
+        {"content": "Dear", "position": 5},
+        {"content": "Goop Play", "position": 8},
+        {"content": "Reston", "position": 13}
+      ]
+    }
+  ]
+}

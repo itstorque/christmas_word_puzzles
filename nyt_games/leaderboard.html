@@ -1,0 +1,354 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title data-testid="page-title">Scores — The New York Times</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" />
+  <meta http-equiv="Content-Type" content="text/html" charSet="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="version" content="v2506061303" />
+  <meta name="CG" content="Crosswords/Games" data-testid="meta-cg" />
+  <meta name="PT" content="crosswords" data-testid="meta-pt" />
+  <link rel="manifest"
+    href="https://www.nytimes.com/games-assets/v2/metadata/connections-web-manifest.json?v=v2506061303" />
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="https://www.nytimes.com/games-assets/v2/metadata/connections-apple-touch-icon.png?v=v2506061303" />
+  <link rel="mask-icon" color="#FFFFFF"
+    href="https://www.nytimes.com/games-assets/v2/metadata/connections-safari-pinned-tab.svg?v=v2506061303" />
+  <link rel="shortcut icon"
+    href="https://www.nytimes.com/games-assets/v2/metadata/connections-favicon.ico?v=v2506061303" />
+  <link href="https://www.nytimes.com/games-assets/v2/assets/connections/NYT-Connections-Icon.svg" rel="icon shortcut"
+    sizes="3232" />
+  <link href="https://www.nytimes.com/games-assets/v2/assets/connections/NYT-Connections-Icon.svg"
+    rel="apple-touch-icon" />
+  <meta name="apple-mobile-web-app-title" content="Connections" data-testid="meta" />
+  <meta name="application-name" content="Connections" data-testid="meta" />
+  <meta name="msapplication-TileColor" content="#FFFFFF" data-testid="meta" />
+  <meta name="theme-color" content="#FFFFFF" data-testid="meta" />
+  <meta name="sourceApp" content="games-crosswords" data-testid="meta" />
+  <meta property="description" content="Group words that share a common thread. A new puzzle is available each day."
+    data-testid="meta" />
+  <meta property="og:title" content="Connections - Group words that share a common thread" data-testid="meta" />
+  <meta property="og:url" content="https://www.nytimes.com/nyt_games/connections" data-testid="meta" />
+  <meta property="og:image"
+    content="https://www.nytimes.com/games-assets/v2/assets/connections/NYT-Connections-og-image.png"
+    data-testid="meta" />
+  <meta property="og:description" content="Group words that share a common thread. A new puzzle is available each day."
+    data-testid="meta" />
+  <meta property="twitter:card" content="summary_large_image" data-testid="meta" />
+  <meta property="twitter:domain" content="nytimes.com" data-testid="meta" />
+  <meta property="theme-color" content="#000000" data-testid="meta" />
+  <link rel="canonical" href="https://www.nytimes.com/nyt_games/connections" />
+  <script
+    type="application/ld+json">{"@type":"Game","@context":"http://schema.org","inLanguage":"en-US","description":"Connections","sourceOrganization":{"@context":"http://schema.org","@type":"Organization","name":"The New York Times","url":"https://www.nytimes.com/","@id":"https://www.nytimes.com/","sameAs":["https://www.facebook.com/nytimes/","https://x.com/nytimes","https://www.instagram.com/nytimes/","https://www.youtube.com/user/TheNewYorkTimes","https://www.linkedin.com/company/the-new-york-times","https://www.wikidata.org/wiki/Q9684","https://en.wikipedia.org/wiki/The_New_York_Times"],"logo":{"@context":"http://schema.org","@type":"ImageObject","url":"https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png","height":40,"width":250}}}</script>
+  <script type="text/javascript" src="/nyt_games/count_points.js"></script>
+  <link rel="stylesheet" type="text/css" href="/nyt_games/games_1.css" />
+  <link rel="stylesheet" type="text/css" href="/nyt_games/games_2.css" />
+  <link rel="stylesheet" type="text/css" href="/nyt_games/games_3.css" />
+  <link rel="stylesheet" type="text/css" href="/nyt_games/games_4.css" />
+  <link rel="stylesheet" type="text/css" href="/nyt_games/games_5.css" />
+  <link rel="stylesheet" type="text/css" href="/nyt_games/leaderboard.css" />  
+  <script type="text/javascript">
+    (function fidesScript(a, b) { function c() { if (!g() && f()) { var c = document.createElement("script"); c.id = "nyt-fides", c.src = a, b.document.head.appendChild(c) } } var d = new URLSearchParams(b.location.search), e = function (a) { var c = b.document.cookie.split(";").find(function (b) { return b.includes(a) }) || ""; return c.replace(a, "").trim().charAt(16) }, f = function () { var a, c, f, g = d.get("fides-override"), h = e("nyt-purr="), i = e("override-purr="), j = 0 < (null === (a = b.config) || void 0 === a || null === (c = a.tc_info) || void 0 === c || null === (f = c.fides_string) || void 0 === f ? void 0 : f.length); return j || "s" === i || "s" === h || "true" === g }, g = function () { return null !== b.document.getElementById("nyt-fides") }; c(), b.addEventListener("initWebview:ios", c), b.fidesUtils = { isFidesEligible: f } })('https://static01.nyt.com/vi-assets/static-assets/fides-8ff3b866ef707d7b05879c1b02bc31aa.js', window);
+    (function fidesTracking(a) {
+      function b(a) { var b = a.layerType; return { event: "impression", priority: !0, module: { name: b, label: b, region: "bottom" } } } function c(a) { var b = a.actionType, c = void 0 === b ? "" : b, d = a.layerType, e = void 0 === d ? "" : d; return { event: "moduleInteraction", eventData: { trigger: "module", type: "click" }, module: { name: e, label: e, element: { name: c, label: c } } } } function d(a) { var b = a.actionType, c = void 0 === b ? "" : b, d = a.layerType, e = void 0 === d ? "" : d; return { subject: "interaction", data: { name: e, label: e, element: { name: c, label: c } } } } function e(b) { var c = a.dataLayer || (a.dataLayer = []); c.push(b) } function f(b) { var c = a.document.getElementById("fides-banner"), d = a.document.getElementById("fides-modal"), e = a.document.getElementById("fides-embed-container"), f = "true" === (null === d || void 0 === d ? void 0 : d.getAttribute("aria-hidden")); if (e) return "cmp_layer_2"; if (null !== b) { if (!c || !d) return ""; if (c.contains(b)) return "cmp_layer_1"; if (d.contains(b)) return "cmp_layer_2" } return f ? "cmp_layer_1" : "cmp_layer_2" } function g(a) { var b = a.textContent.toLowerCase(); return { "accept all": "accept_all", "reject all": "reject_all", "manage preferences": "manage_prefs", "cookie policy": "cookie_policy", "privacy policy": "privacy_policy", purposes: "purposes", features: "features", vendors: "vendors", save: "save" }[b] || "" }// dispatch event for iOS and Android to listen to.
+      function h(b) { var c = new CustomEvent("NYTFidesUpdated", { detail: b }); a.dispatchEvent(c) } var i; !0 === (null === (i = a.fidesUtils) || void 0 === i ? void 0 : i.isFidesEligible()) && (a.addEventListener("FidesUIShown", function (a) { var c, d = null === a || void 0 === a || null === (c = a.detail) || void 0 === c ? void 0 : c.extraDetails, f = d.servingComponent, g = void 0 === f ? "" : f; if ("tcf_banner" === g) { var h = b({ layerType: "cmp_layer_1" }); e(h) } }), a.addEventListener("click", function (a) { var b = a.target, i = "button" === b.type, j = "a" === b.nodeName.toLowerCase(); if (i || j) { var k = g(b), l = f(b); if (k) { var m = c({ actionType: k, layerType: l }); e(m); var n = d({ actionType: k, layerType: l }); h(n), a.stopPropagation() } } }), a.addEventListener("beforeunload", function () { var a = f(null), c = b({ layerType: "".concat(a, "_exit") }); e(c) }))
+    })(window);
+  </script>
+</head>
+
+<body class="pz-page pz-loading pz-user-loading pz-use-intercept">
+  <div id="portal-skip-nav"></div>
+
+  <header class="pz-header pz-hide-loading pz-game-header">
+    <div id="banner-portal"></div>
+    <div class="pz-nav" id="js-global-nav"><button type="button" aria-label="Navigation menu button"
+        aria-haspopup="true" aria-expanded="false"
+        class="pz-nav__hamburger-helper pz-nav__hamburger pz-nav__hamburger-squeeze pz-hide-hybrid pz-hide-play-tab pz-hide-newsreader-android pz-hide-newsreader-ios"
+        id="js-nav-burger"><span class="pz-nav__hamburger-box"><span
+            class="pz-nav__hamburger-inner"></span></span></button><button type="button"
+        class="pz-hybrid-back pz-hide-web pz-hide-play-tab pz-hide-newsreader-ios-hybrid" id="js-hybrid-back"><span
+          class="pz-hybrid-back__text">Back</span></button><a id="js-logo-nav"
+        class="pz-nav__title pz-h1 pz-hide-play-tab pz-hide-newsreader-android pz-hide-newsreader-ios"
+        href="/crosswords" aria-label="New York Times Games Logo. Click for more puzzles">
+      {% include games/nyt_logo.html %}
+      </a>
+      <div class="pz-nav__toolbar" id="js-mobile-toolbar"></div>
+      <div class="pz-nav__actions pz-flex-row" id="js-nav-actions">
+        <div id="bar1-portal"></div>
+      </div>
+    </div>
+    <div role="menu" aria-label="Navigation menu" aria-hidden="true"
+      class="pz-nav-drawer pz-hide-hybrid pz-hide-play-tab pz-hide-newsreader-android pz-hide-newsreader-ios"
+      id="js-nav-drawer"></div>
+  </header>
+  <div class="pz-intercept"></div>
+  <div class="pz-content">
+    <div class="pz-section" id=".-container">
+      <div class="pz-row pz-game-title-bar xwd__hide-when-no-data" style="display: block !important;">
+        <div class="pz-module" id="portal-game-header">
+          <h1><em class="pz-game-title">Your Score is <span id="your-score"></span></em><span id="portal-game-date" class="pz-game-date"></span></h1>
+
+          <script>
+            // Assuming the score is stored in localStorage with key 'christmas2025_score'
+            document.addEventListener('DOMContentLoaded', function() {
+              var score = calculate_total_score();
+              // document.getElementsByClassName('your-score').forEach(function(elem) {
+              //   elem.textContent = score;
+              // });
+              document.getElementById('your-score').textContent = score;
+            });
+          </script>
+        </div>
+      </div>
+  <div class="pz-section" id="christmas-games-container">
+    <div class="pz-game-wrapper" id="js-hook-game-wrapper" style="background-color: white !important;">
+      <div class="pz-game-screen" id="js-hook-pz-moment__game">
+        <div id="christmas-games-content">
+          <link rel="stylesheet" href="/assets/css/games.css">
+          <link rel="stylesheet" href="/nyt_games/games_1.css">
+          <link rel="stylesheet" href="/nyt_games/games_2.css">
+
+          <div class="css-games_links">
+              <div class="hub-game-card hub-dual-link js-hub-tracker connections">
+                  <div data-track-hub="Connections" data-track-hub-context="connections">
+                      <a href="/nyt_games/connections" class="connections" tabindex="-1">
+                          <div class="hub-game-card__cover">
+                              <div class="hub-game-card__illustration" aria-label="Connections" role="img"></div>
+                              <h4 class="hub-game-card__name">Connections</h4>
+                          </div>
+                      </a>
+                      <div class="hub-game-card__content">
+                          <a href="/nyt_games/connections" class="hub-game-card hub-game-card__button connections">Play</a>
+                          <!-- <a href="/nyt_games/connections/archive" class="hub-game-card hub-game-card__button connections-archive-hub-connections">Archive</a> -->
+                      </div>
+                  </div>
+              </div>
+
+              <div class="hub-game-card hub-dual-link js-hub-tracker strands">
+                  <div data-track-hub="Strands" data-track-hub-context="strands">
+                      <a href="/nyt_games/strands" class="strands" tabindex="-1">
+                          <div class="hub-game-card__cover">
+                              <div class="hub-game-card__illustration" aria-label="Strands" role="img"></div>
+                              <h4 class="hub-game-card__name">Strands</h4>
+                          </div>
+                      </a>
+                      <div class="hub-game-card__content">
+                          <a href="/nyt_games/strands" class="hub-game-card hub-game-card__button strands">Play</a>
+                          <!-- <a href="/nyt_games/strands/archive" class="hub-game-card hub-game-card__button strands-archive-hub-strands">Archive</a> -->
+                      </div>
+                  </div>
+              </div>
+
+              <div class="hub-game-card hub-dual-link js-hub-tracker mini">
+                  <div data-track-hub="Mini" data-track-hub-context="mini">
+                      <a href="/nyt_games/mini" class="mini" tabindex="-1">
+                          <div class="hub-game-card__cover">
+                              <div class="hub-game-card__illustration" aria-label="Mini" role="img"></div>
+                              <h4 class="hub-game-card__name">Mini</h4>
+                          </div>
+                      </a>
+                      <div class="hub-game-card__content">
+                          <a href="/nyt_games/mini" class="hub-game-card hub-game-card__button mini">Play</a>
+                          <!-- <a href="/nyt_games/mini/archive" class="hub-game-card hub-game-card__button mini-archive-hub-mini">Archive</a> -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    </div>
+    <script type="text/javascript">window.connectionsArchiveDate = undefined</script>
+  </div>
+  {% include games/game_footer.html %}
+  <script
+    type="text/javascript">window.purrDirectiveFormat = { "PURR_DataSaleOptOutUI_v2": { "index": 7, "values": { "h": "hide", "s": "show", "o": "show-opted-out" }, "default": "hide", "queryParam": "opt-out" }, "PURR_CaliforniaNoticesUI": { "index": 8, "values": { "h": "hide", "s": "show" }, "default": "hide", "queryParam": "california-notices" }, "PURR_AdConfiguration_v3": { "index": 11, "values": { "f": "full", "r": "rdp", "n": "npa", "s": "adluce-socrates", "l": "ltd" }, "default": "full", "queryParam": "ad-config" }, "PURR_LimitSensitivePI": { "index": 12, "values": { "h": "hide", "s": "show" }, "default": "hide", "queryParam": "limit-sensitive-information" }, "PURR_TOSBlocker_v1": { "index": 15, "values": { "h": "hide", "s": "show" }, "default": "hide", "queryParam": "tos-blocker" }, "PURR_FidesTCF": { "index": 16, "values": { "h": "hide", "s": "show" }, "default": "hide", "queryParam": "fides-tcf" }, "PURR_TOSBlocker_Versioned": { "index": 19, "values": { "h": "hide", "s": "show" }, "default": "hide", "queryParam": "tos-blocker-versioned" }, "_current_TOS_Version": { "index": 20, "values": { "1": "1", "2": "2" }, "default": "2", "queryParam": "current-tos-version" } }</script>
+  <script type="text/javascript" async="">
+      (function v() { var e, t; e = function () { var e, t, r, a = {}; try { document.cookie.indexOf("nyt-purr") > -1 && (e = null === (t = document.cookie.split("; ").find((e => e.startsWith("nyt-purr=")))) || void 0 === t ? void 0 : t.split("=")[1]), r = e, window.purrDirectives = {}, a = Object.keys(window.purrDirectiveFormat).reduce(((e, t) => { var a, n, i, o, l = window.purrDirectiveFormat[t]; try { return i = window.location.search.substring(1).split("&"), o = {}, i.forEach((e => { n = e.split("="), o[decodeURIComponent(n[0])] = decodeURIComponent(n[1] || "") })), a = o[l.queryParam] || l.values[r[l.index]], window.purrDirectives && (window.purrDirectives[t] = a), e[t] = a, e } catch (r) { return window.purrDirectives && (window.purrDirectives[t] = l.default), e[t] = l.default, e } }), { PURR_DataSaleOptOutUI_v2: "hide", PURR_CaliforniaNoticesUI: "hide", PURR_AdConfiguration_v3: "full", PURR_LimitSensitivePI: "hide", PURR_TOSBlocker_v1: "hide", PURR_FidesTCF: "hide", PURR_TOSBlocker_Versioned: "hide", _current_TOS_Version: "2" }) } catch (e) { a = { PURR_AdConfiguration_v3: "full" } } return a }().PURR_AdConfiguration_v3, (t = document.createElement("script")).src = "ltd" === e ? "https://pagead2.googlesyndication.com/tag/js/gpt.js" : "https://securepubads.g.doubleclick.net/tag/js/gpt.js", t.async = !0, document.currentScript.parentNode.insertBefore(t, document.currentScript.nextSibling) })();
+  </script>
+  <script type="text/javascript">window.pageName = "leaderboard"</script>
+  <script
+    type="text/javascript">window.env = { "version": "v2506061303", "api": "https:\u002F\u002Fwww.nytimes.com", "tagx": "https:\u002F\u002Fa.nytimes.com", "gtm": "https:\u002F\u002Fwww.googletagmanager.com\u002Fgtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x", "hostname": "https:\u002F\u002Fwww.nytimes.com", "edge": "https:\u002F\u002Fwww.nytimes.com", "moogle": "https:\u002F\u002Fwww.nytimes.com", "meter": "https:\u002F\u002Fmeter-svc.nytimes.com", "account": "https:\u002F\u002Fmyaccount.nytimes.com", "assets": "https:\u002F\u002Fwww.nytimes.com\u002Fgames-assets\u002Fv2", "samizdat": { "host": "https:\u002F\u002Fsamizdat-graphql.nytimes.com", "appType": "games-phoenix", "appVersion": "1.0.0", "token": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiKjdfob\u002FixNCvLETwnQ3AalkGSm9NX4gcRbOudrtHmBmIJbWb8Xgu3QH516Edr1qD7A+w+5d0p\u002FWsNCpWDLrqfjTIwMft+jtOQG44l7akD9yi9Gaq\u002F6hS3cuntkY25AYR3WtQPqrtxClX+qQdhMmzlA0sRAXKM8dSbIpsNV9uUOclt3JwB4omwFGj4J+pqzsfYZfB\u002Ftlx+BPGjCYGNcZ9O9UvtCpLRLgCJmTugL6V\u002FU581gY8mqp+22aVjbEJik+F0j8xTNSxCOV2PLMpNrRSiDZ8FaKtq8ap\u002FHPey5M7qYZQqclfqsEJMXG\u002FKE3PiaTIbO37caFa80FvzfV8MZw1wIDAQAB" }, "statsig": { "clientKey": "client-12bVZwwZY9r2uPssyNRAXiJdmnclIMpuneSKzrlSPfn", "tier": "production", "specsUrl": "https:\u002F\u002Fstatic01.nyt.com\u002Fstatsig\u002Fconfig\u002Fclient-12bVZwwZY9r2uPssyNRAXiJdmnclIMpuneSKzrlSPfn.json" }, "name": "prod" }</script>
+  <script
+    type="text/javascript">window.abra = { "config": { ".ver": 25782, "ON_wordleOnboardingOffer_0822": { "abtest_partition": [{ "var": "agent_id" }, "ON_wordleOnboardingOffer_0822", 4294967295, "1_ShowOffer"] }, "ON_wordle_regi_modal": { "abtest_partition": [{ "var": "agent_id" }, "ON_wordle_regi_modal", 4294967295, "1_regi_modal"] }, "OMA_GAMES_SALE_BANNER": { "abtest_partition": [{ "var": "agent_id" }, "70fa0d47-a884-4db4-b65d-598142872b54", 4294967295, "OFF"] }, "OMA_ENDSCREENACTIONS_WORDLE": { "abtest_partition": [{ "var": "agent_id" }, "OMA_ENDSCREENACTIONS_WORDLE", 1073741823, "0_Control", 2147483647, "1_OMA"] }, "OMA_ENDSCREENACTIONS_TILES": { "abtest_partition": [{ "var": "agent_id" }, "OMA_ENDSCREENACTIONS_TILES", 42949672, "1_OMA", 85899345, "1_OMA", 257698037, "1_OMA", 429496729, "1_OMA", 1288490188, "1_OMA", 2147483647, "1_OMA", 3221225471, "1_OMA", 4294967295, "1_OMA"] }, "OMA_ENDSCREENACTIONS_SUDOKU": { "abtest_partition": [{ "var": "agent_id" }, "OMA_ENDSCREENACTIONS_SUDOKU", 42949672, "1_OMA", 85899345, "1_OMA", 257698037, "1_OMA", 429496729, "1_OMA", 1288490188, "1_OMA", 2147483647, "1_OMA", 3221225471, "1_OMA", 4294967295, "1_OMA"] }, "OMA_ENDSCREENACTIONS_STRANDS": { "abtest_partition": [{ "var": "agent_id" }, "OMA_ENDSCREENACTIONS_STRANDS", 42949672, "1_OMA", 85899345, "1_OMA", 257698037, "1_OMA", 429496729, "1_OMA", 1288490188, "1_OMA", 2147483647, "1_OMA", 3221225471, "1_OMA", 4294967295, "1_OMA"] }, "OMA_ENDSCREENACTIONS_MINI": { "abtest_partition": [{ "var": "agent_id" }, "OMA_ENDSCREENACTIONS_MINI"] }, "OMA_ENDSCREENACTIONS_LETTERBOXED": { "abtest_partition": [{ "var": "agent_id" }, "OMA_ENDSCREENACTIONS_LETTERBOXED", 214748364, "1_OMA", 429496729, "1_OMA", 1288490188, "1_OMA", 2147483647, "1_OMA", 3221225471, "1_OMA", 4294967295, "1_OMA"] }, "OMA_ENDSCREENACTIONS_DAILY": { "abtest_partition": [{ "var": "agent_id" }, "OMA_ENDSCREENACTIONS_DAILY", 42949672, "1_OMA", 85899345, "1_OMA", 257698037, "1_OMA", 429496729, "1_OMA", 1288490188, "1_OMA", 2147483647, "1_OMA", 3221225471, "1_OMA", 4294967295, "1_OMA"] }, "OMA_ENDSCREENACTIONS_CONNECTIONS": { "abtest_partition": [{ "var": "agent_id" }, "OMA_ENDSCREENACTIONS_CONNECTIONS", 42949672, "1_OMA", 85899345, "1_OMA", 257698037, "1_OMA", 429496729, "1_OMA", 1288490188, "1_OMA", 2147483647, "1_OMA", 3221225471, "1_OMA", 4294967295, "1_OMA"] }, "MWD_phoenix_games_sale_nav": { "abtest_partition": [{ "var": "agent_id" }, "MWD_phoenix_games_sale_nav", 4294967295, "1_Show"] }, "MWD_phoenix_games_sale_cta": { "abtest_partition": [{ "var": "agent_id" }, "MWD_phoenix_games_sale_cta", 4294967295, "1_Show"] }, "MWD_phoenix_games_sale_banner": { "abtest_partition": [{ "var": "agent_id" }, "MWD_phoenix_games_sale_banner", 4294967295, "1_Show"] }, "MKT_Spellingbee_banner_test_sub_0522": { "abtest_partition": [{ "var": "agent_id" }, "MKT_Spellingbee_banner_test_sub_0522", 4294967295, "1_gift"] }, "GAMES_wordleForumApp_0535": { "abtest_partition": [{ "var": "agent_id" }, "1ea5830b-d56e-4dc4-9808-6cc6161f227b"] }, "GAMES_wordleCalculatedStreakCutover_0624": { "abtest_partition": [{ "var": "regi_id" }, "GAMES_wordleCalculatedStreakCutover_0624", 3865470565, "1_Cutover", 4294967295, "1_Cutover"] }, "GAMES_wordle_archive_newsub_0424": { "if": [{ "and": [{ "===": [{ "var": "user_type" }, "sub"] }, { "===": [{ "var": "is_subscribed_before_wordle_archive" }, false] }] }, { "abtest_partition": [{ "var": "agent_id" }, "GAMES_wordle_archive_newsub_0424", 4294967295, "1_Archive"] }] }, "GAMES_tilesTilesetModal_0125": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_tilesTilesetModal_0125", 4294967295, "1_enabled"] }, "GAMES_tilesDarkMode_0125": { "if": [{ "and": [{ "!": { "in": [{ "ref": "GAMES_darkMode_holdout" }, ["0_control"]] } }] }, { "abtest_partition": [{ "var": "agent_id" }, "GAMES_tilesDarkMode_0125", 4294967295, "1_enabled"] }] }, "GAMES_subscribeToolbarWebApp_0425": { "abtest_partition": [{ "var": "agent_id" }, "7f4be13e-af84-42c1-be61-50514f43fb93", 1073741823, "0_control", 2147483647, "1_subscribeToolbar"] }, "GAMES_subForNoAds_0325": { "abtest_partition": [{ "var": "agent_id" }, "6e9a8418-d358-4ba3-a0fc-4a349245bca2", 214748364, "0_holdout", 4294967295, "1_ads"] }, "GAMES_strandsDarkMode_0916": { "if": [{ "and": [{ "!": { "in": [{ "ref": "GAMES_darkMode_holdout" }, ["0_control"]] } }] }, { "abtest_partition": [{ "var": "agent_id" }, "GAMES_strandsDarkMode_0916", 4294967295, "1_enabled"] }] }, "GAMES_strands_saving_game_data_0525": { "abtest_partition": [{ "var": "regi_id" }, "GAMES_strands_saving_game_data_0525", 214748364, "1_saving_game_state", 3650722201, "1_saving_game_state", 4294967295, "1_saving_game_state"] }, "GAMES_sbDarkMode_0916": { "if": [{ "and": [{ "!": { "in": [{ "ref": "GAMES_darkMode_holdout" }, ["0_control"]] } }] }, { "abtest_partition": [{ "var": "agent_id" }, "GAMES_sbDarkMode_0916", 2147483647, "1_sbDarkMode", 4294967295, "1_sbDarkMode"] }] }, "GAMES_salePaywallGood_0325": { "abtest_partition": [{ "var": "agent_id" }, "3c05aee5-a345-43e6-8fcc-d51259cf3e3d", 4294967295, "1_paywallGood"] }, "GAMES_PurrTOSBlocker_1024": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_PurrTOSBlocker_1024", 4294967295, "1_Show"] }, "GAMES_PLOPRO_WELCOME_SCREEN_0425": { "abtest_partition": [{ "var": "agent_id" }, "06e1a7b6-68c4-416b-be2b-a28724e87f64", 2147483647, "0_control", 4294967295, "1_variant"] }, "GAMES_PLOPRO_HOLDOUT_0425": { "abtest_partition": [{ "var": "agent_id" }, "d90a9d41-5e03-419a-aeef-f769eeffa50a", 214748364, "0_control", 4294967295, "1_variant"] }, "GAMES_pipsReveal_0525": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_pipsReveal_0525", 4294967295, "1_Reveal"] }, "GAMES_pipsRefSheet_0425": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_pipsRefSheet_0425", 4294967295, "1_ShowReference"] }, "GAMES_pipsNewWelcome_0525": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_pipsNewWelcome_0525", 2147483647, "0_Control", 4294967295, "1_ShowNewWelcome"] }, "GAMES_pipsNav_0525": { "if": [{ "and": [{ "===": [{ "var": "geo_country" }, "CA"] }] }, { "abtest_partition": [{ "var": "agent_id" }, "GAMES_pipsNav_0525", 4294967295, "1_ShowPips"] }] }, "GAMES_pipsHowToPlay_0425": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_pipsHowToPlay_0425", 429496729, "0_Control", 2147483647, null, 2576980377, "1_StaticHowToPlay", 4294967295, null] }, "GAMES_packageDemo_0802": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_packageDemo_0802", 4294967295, "0_control"] }, "GAMES_lbDarkMode_1112": { "if": [{ "and": [{ "!": { "in": [{ "ref": "GAMES_darkMode_holdout" }, ["0_control"]] } }] }, { "abtest_partition": [{ "var": "agent_id" }, "GAMES_lbDarkMode_1112", 4294967295, "1_enabled"] }] }, "GAMES_iOSConnectionsArchive_0924": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_iOSConnectionsArchive_0924", 2147483647, "1_ConnectionsArchive", 4294967295, "1_ConnectionsArchive"] }, "GAMES_HamburgerMenuAppDLCTA_0225": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_HamburgerMenuAppDLCTA_0225", 429496729, "0_Control", 2147483647, "1_appDownloadCTA", 4294967295, "1_appDownloadCTA"] }, "GAMES_fastlyShield_0519": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_fastlyShield_0519", 4294967295, "3_newNewVariant"] }, "GAMES_endScreenMitigation_0425": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_endScreenMitigation_0425"] }, "GAMES_deviceDefaultDarkMode_0225": { "if": [{ "or": [{ "regex_match": [{ "var": "regi_id" }, "^171479076$"] }, { "regex_match": [{ "var": "regi_id" }, "^231188621$"] }, { "regex_match": [{ "var": "regi_id" }, "^189957684$"] }, { "regex_match": [{ "var": "regi_id" }, "^131390996$"] }, { "regex_match": [{ "var": "regi_id" }, "^210446210$"] }, { "regex_match": [{ "var": "regi_id" }, "^264527081$"] }, { "regex_match": [{ "var": "regi_id" }, "^205577460$"] }, { "regex_match": [{ "var": "regi_id" }, "^86318141$"] }, { "regex_match": [{ "var": "regi_id" }, "^191325162$"] }, { "regex_match": [{ "var": "regi_id" }, "^230821435$"] }, { "regex_match": [{ "var": "regi_id" }, "^228734405$"] }, { "regex_match": [{ "var": "regi_id" }, "^207685343$"] }, { "regex_match": [{ "var": "regi_id" }, "^271088414$"] }, { "regex_match": [{ "var": "regi_id" }, "^214910213$"] }] }, { "abtest_partition": [{ "var": "regi_id" }, "GAMES_deviceDefaultDarkMode_0225", 4294967295, "1_enabled"] }] }, "GAMES_darkMode_holdout": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_darkMode_holdout", 214748364, "0_control", 4294967295, "1_darkModeAudience"] }, "GAMES_darkMode_android_1120": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_darkMode_android_1120", 2147483647, "1_enabled", 4294967295, "1_enabled"] }, "GAMES_createWordle_sub_0425": { "if": [{ "and": [{ "===": [{ "var": "user_type" }, "sub"] }, { "===": [{ "var": "is_subscribed_before_cyow" }, true] }] }, { "abtest_partition": [{ "var": "regi_id" }, "GAMES_createWordle_sub_0425", 1073741823, "0_Control", 2147483647, "1_Create"] }] }, "GAMES_createWordle_puzzles_0425": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_createWordle_puzzles_0425", 4294967295, "1_Puzzles"] }, "GAMES_createWordle_newSub_0425": { "if": [{ "and": [{ "===": [{ "var": "user_type" }, "sub"] }, { "===": [{ "var": "is_subscribed_before_cyow" }, false] }] }, { "abtest_partition": [{ "var": "regi_id" }, "GAMES_createWordle_newSub_0425", 4294967295, "1_Create"] }] }, "GAMES_connectionsSportsLinks_0924": { "abtest_partition": [{ "var": "agent_id" }, "93f4772c-d906-4711-9e67-4cf996bd733d", 4294967295, "1_showSportsConnLink"] }, "GAMES_connectionsForumApp_0525": { "abtest_partition": [{ "var": "agent_id" }, "1ea5830b-d56e-4dc4-9808-6cc6161f227b"] }, "GAMES_connectionsDarkMode_0926": { "if": [{ "and": [{ "!": { "in": [{ "ref": "GAMES_darkMode_holdout" }, ["0_control"]] } }] }, { "abtest_partition": [{ "var": "agent_id" }, "GAMES_connectionsDarkMode_0926", 4294967295, "1_enabled"] }] }, "GAMES_BackToPlayTab_1222": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_BackToPlayTab_1222", 4294967295, "1_BackToPlayTab"] }, "GAMES_ATS_0506": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_ATS_0506", 42949672, "0_Control", 85899345, "1_Variant", 4294967295, "1_Variant"] }, "GAMES_archivePaywallRedesign_0425": { "abtest_partition": [{ "var": "agent_id" }, "38e8e03f-8983-4913-9d0b-9f557608bf93", 1073741823, "0_control", 2147483647, "1_static", 3221225471, "2_gamesBrand", 4294967295, "3_archiveSizzle"] }, "GAMES_appConnectionsBot_0425_v2": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_appConnectionsBot_0425_v2", 4294967295, null] }, "GAMES_appConnectionsBot_0425": { "abtest_partition": [{ "var": "agent_id" }, "ac99b32a-6bb9-4d64-be2c-c5e9c8904adb"] }, "GAMES_androidConnectionsArchive_0924": { "abtest_partition": [{ "var": "agent_id" }, "GAMES_androidConnectionsArchive_0924", 1932735282, "1_ConnectionsArchive", 2147483647, "1_ConnectionsArchive", 4080218930, "1_ConnectionsArchive", 4294967295, "1_ConnectionsArchive"] }, "DFP_WordleSkipFade_0524": { "abtest_partition": [{ "var": "agent_id" }, "DFP_WordleSkipFade_0524", 171798691, "1_Variant", 193273527, "0_Control", 214748364, "1_Variant", 236223200, "0_Control", 300647710, "1_Variant", 322122546, "0_Control", 343597383, "1_Variant", 365072219, "0_Control", 408021892, "1_Variant", 429496729, "1_Variant", 493921238, "1_Variant", 536870911, "1_Variant", 601295420, "1_Variant", 665719930, "1_Variant", 687194766, "1_Variant", 708669603, "1_Variant", 773094112, "1_Variant", 816043785, "1_Variant", 880468295, "1_Variant", 901943131, "1_Variant", 966367641, "1_Variant", 1030792150, "1_Variant", 1073741823, "1_Variant", 1116691496, "1_Variant", 1224065678, "1_Variant", 1245540515, "1_Variant", 1288490188, "1_Variant", 1309965024, "1_Variant", 1331439861, "1_Variant", 1352914697, "1_Variant", 1374389534, "1_Variant", 1395864370, "1_Variant", 1417339207, "1_Variant", 1438814043, "1_Variant", 1460288880, "1_Variant", 1481763716, "1_Variant", 1503238553, "1_Variant", 1524713389, "1_Variant", 1546188226, "1_Variant", 1567663062, "1_Variant", 1589137899, "1_Variant", 1610612735, "1_Variant", 1632087571, "1_Variant", 1653562408, "1_Variant", 1675037244, "1_Variant", 1696512081, "1_Variant", 1717986917, "1_Variant", 1739461754, "1_Variant", 1760936590, "1_Variant", 1782411427, "1_Variant", 1803886263, "1_Variant", 1825361100, "1_Variant", 1846835936, "1_Variant", 1868310773, "1_Variant", 1889785609, "1_Variant", 1911260446, "1_Variant", 1932735282, "1_Variant", 1954210119, "1_Variant", 1975684955, "1_Variant", 1997159792, "1_Variant", 2018634628, "1_Variant", 2040109465, "1_Variant", 2061584301, "1_Variant", 2083059138, "1_Variant", 2104533974, "1_Variant", 2126008811, "1_Variant", 2168958483, "1_Variant", 2190433320, "1_Variant", 2211908156, "1_Variant", 4294967295, "1_Variant"] }, "DFP_WordleSkip": { "abtest_partition": [{ "var": "agent_id" }, "DFP_WordleSkip", 858992, "0_Control", 22333829, "1_Variant", 42949672, "0_Control", 107374181, "1_Variant", 171798691, "0_Control", 257698037, "1_Variant", 365072219, "1_Variant", 515396075, "1_Variant", 687194766, "1_Variant", 923417968, "1_Variant", 1159641169, "1_Variant", 1438814043, "1_Variant", 1717986917, "1_Variant", 1932735282, "1_Variant", 4294967295, "1_Variant"] }, "DFP_WordleMobile_0423": { "abtest_partition": [{ "var": "agent_id" }, "DFP_WordleMobile_0423", 7730940, "0_Control", 29205777, "1_Interstitial", 50680613, "1_Interstitial", 72155450, "1_Interstitial", 93630286, "1_Interstitial", 115105123, "1_Interstitial", 136579959, "1_Interstitial", 158054795, "1_Interstitial", 179529632, "1_Interstitial", 201004468, "1_Interstitial", 222479305, "1_Interstitial", 243954141, "1_Interstitial", 265428978, "1_Interstitial", 286903814, "1_Interstitial", 308378651, "1_Interstitial", 329853487, "1_Interstitial", 351328324, "1_Interstitial", 372803160, "1_Interstitial", 386547056, "1_Interstitial", 413175853, "0_Control", 1959364079, "1_Interstitial", 3435973836, "1_Interstitial", 3436403333, "0_Control", 3478923509, "1_Interstitial", 3479353005, "0_Control", 3521873182, "1_Interstitial", 3522732175, "0_Control", 3607772528, "1_Interstitial", 3608202024, "0_Control", 3650722201, "1_Interstitial", 3651151697, "0_Control", 3693671874, "1_Interstitial", 3694530867, "0_Control", 3779571219, "1_Interstitial", 3780000716, "0_Control", 3784295684, "1_Interstitial", 3784725180, "0_Control", 3785154677, "0_Control", 3786013670, "0_Control", 3786443167, "0_Control", 3786872664, "0_Control", 3787302161, "0_Control", 3787731657, "0_Control", 3822520892, "0_Control", 3823379886, "0_Control", 3865470565, "1_Interstitial", 3866329559, "0_Control", 3908420238, "1_Interstitial", 3909279232, "0_Control", 3951369911, "1_Interstitial", 3952228905, "0_Control", 3994319584, "1_Interstitial", 3995178578, "0_Control", 4037269257, "1_Interstitial", 4038128251, "0_Control", 4080218930, "1_Interstitial", 4081077924, "0_Control", 4123168603, "1_Interstitial", 4124886590, "0_Control", 4209067949, "1_Interstitial", 4210785936, "0_Control", 4294967295, "1_Interstitial"] }, "DFP_WordleAdRefresh": { "abtest_partition": [{ "var": "agent_id" }, "DFP_WordleAdRefresh", 85899345, "0_Control", 107374181, "1_refresh31", 214748364, "1_refresh31", 322122546, "1_refresh31", 1288919685, "1_refresh31", 2255287326, "1_refresh31", 3221654968, "1_refresh31", 4294967295, "1_refresh31"] }, "dfp_wordle_ad": { "abtest_partition": [{ "var": "agent_id" }, "dfp_wordle_ad", 429496, "0_control", 858992, "0_control", 1717986, "0_control", 3435973, "0_control", 10307921, "0_control", 18468358, "0_control", 28776280, "0_control", 32212254, "0_control", 34789234, "0_control", 35648228, "0_control", 37366214, "0_control", 38654705, "0_control", 39084201, "0_control", 39513698, "0_control", 40372692, "0_control", 41661182, "0_control", 42090679, "0_control", 42520175, "0_control", 42949672, "0_control", 4294967295, "1_topad"] }, "DFP_StrandsMobileWeb": { "abtest_partition": [{ "var": "agent_id" }, "DFP_StrandsMobileWeb", 85899345, "0_Control", 4294967295, "1_Variant"] }, "DFP_SpellingBeeSkip": { "abtest_partition": [{ "var": "agent_id" }, "DFP_SpellingBeeSkip", 85899345, "0_Control", 4294967295, "1_Variant"] }, "DFP_SpellingBeeMobile": { "abtest_partition": [{ "var": "agent_id" }, "DFP_SpellingBeeMobile", 21474835, "0_Control", 42949672, "1_Variant", 64424508, "0_Control", 2147483647, "1_Variant", 2190433320, "0_Control", 4294967295, "1_Variant"] }, "DFP_Prebid_0624": { "abtest_partition": [{ "var": "agent_id" }, "DFP_Prebid_0624", 4294967295, "1_Criteo"] }, "DFP_OutstreamBeta": { "abtest_partition": [{ "var": "agent_id" }, "DFP_OutstreamBeta", 107374181, "0_Control", 214748364, "1_Variant", 225485782, "0_Control", 236223200, "1_Variant", 1191853424, "0_Control", 2147483647, "1_Variant", 2158221065, "0_Control", 2168958483, "1_Variant"] }, "DFP_MobileWebTSL": { "abtest_partition": [{ "var": "agent_id" }, "DFP_MobileWebTSL", 85899345, "0_Control", 4294967295, "1_Variant"] }, "DFP_MiniSkip": { "abtest_partition": [{ "var": "agent_id" }, "DFP_MiniSkip", 13743894, "0_Control", 443240624, "1_Variant", 444958611, "0_Control", 446676598, "0_Control", 515396075, "0_Control", 536870911, "1_Variant", 708669603, "1_Variant", 837518622, "1_Variant", 987842477, "1_Variant", 1352914697, "1_Variant", 1503238553, "1_Variant", 1782411427, "1_Variant", 1932735282, "1_Variant", 2061584301, "1_Variant", 2190433320, "1_Variant", 4294967295, "1_Variant"] }, "DFP_adelaide_0325": { "abtest_partition": [{ "var": "agent_id" }, "DFP_adelaide_0325", 2147483647, "0_ROS", 4294967295, "1_Adelaide"] }, "CONV_GUAC_GAMES_MINI_WELCOME_SUBSCRIBE_CTA": { "abtest_partition": [{ "var": "agent_id" }, "426cb264-a03d-41bc-b3c6-0ab03e4b2c04", 429496729, "0_control", 4294967295, "1_subscribe_cta"] } }, "tests": {} }</script>
+  <script type="text/javascript">window.adUnitPath = "leaderboard"</script>
+  <script
+    type="text/javascript">window.navigationLinks = { "subscribe": { "daily": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=4QHQ6", "archive": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=4QHQF", "gameplay": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=4R67W", "congrats": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=4XKYJ", "spellingBeeLapsedStats": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=8H8UH", "spellingBeeCard": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=7QXX9", "spellingBeePaywall": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=7RJKF", "spellingBeeBanner": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=7HHK8", "spellingBeeCutoffStart": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=7F9J7", "spellingBeeCutoffStop": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=79XQU", "spellingBeeCutoffWelcomeBack": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=7KK8Q", "spellingBeeHub": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=8XUQX", "spellingBeeWelcomePastPuzzles": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=8LL7Q", "spellingBeeUpsellFAM": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=8998L", "letterBoxedBanner": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=7UHY9", "letterBoxedCard": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=78UQ9", "letterBoxedPaywall": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=7JXU8", "tilesWelcomeDesktop": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=7U798", "tilesWelcomeMobile": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=7Y97X", "tilesCongratsDesktop": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=7Y8WW", "tilesCongratsMobile": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=7RYYF", "tilesSettingsDesktop": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=7XH8W", "tilesSettingsMobile": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=7JR89", "wordle": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=8YU98", "createWordleFormWelcome": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=8XQFH", "wordleArchivePaywall": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=8XHWF", "wordleArchiveWelcome": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=8FHQF", "connections": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=8YQFQ", "connectionsArchivePaywall": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=8F9QJ", "connectionsArchiveWelcome": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=8QHWJ", "strands": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=89J99", "branding": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=9W9LL", "badgeDetail": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=8F8JQ", "default": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames?campaignId=4QHQ8" }, "login": "https:\u002F\u002Fmyaccount.nytimes.com\u002Fauth\u002Fenter-email?redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fgames%2Fconnections&response_type=cookie&client_id=games&application=crosswords", "loginOffer": "https:\u002F\u002Fmyaccount.nytimes.com\u002Fauth\u002Fenter-email?redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fgames-offer%3FcampaignId%3D8YUQL%26EXIT_URI%3Dhttps%3A%2F%2Fwww.nytimes.com%2Fgames%2Fconnections&response_type=cookie&client_id=games&application=crosswords", "logout": "https:\u002F\u002Fmyaccount.nytimes.com\u002Fauth\u002Flogout?redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fgames%2Fconnections", "register": "https:\u002F\u002Fmyaccount.nytimes.com\u002Fauth\u002Fregister?redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fgames%2Fconnections&response_type=cookie&client_id=games&application=crosswords", "account": "https:\u002F\u002Faccount.nytimes.com", "hub": "\u002Fcrosswords", "archive": "\u002Fcrosswords\u002Farchive", "daily": "\u002Fcrosswords\u002Fgame\u002Fdaily", "mini": "\u002Fcrosswords\u002Fgame\u002Fmini", "apps": "\u002Fcrosswords\u002Fapps", "stats": "\u002Fpuzzles\u002Fstats", "leaderboards": "\u002Fpuzzles\u002Fleaderboards", "spellingBee": "\u002Fpuzzles\u002Fspelling-bee", "spellingBeePuzzleHub": "\u002Fpuzzles\u002Fspelling-bee\u002Fhub", "wordle": "\u002Fgames\u002Fwordle\u002Findex.html", "wordleArchive": "\u002Fgames\u002Fwordle\u002Farchive", "tiles": "\u002Fpuzzles\u002Ftiles", "letterBoxed": "\u002Fpuzzles\u002Fletter-boxed", "sudoku": "\u002Fpuzzles\u002Fsudoku", "strands": "\u002Fgames\u002Fstrands", "connections": "\u002Fgames\u002Fconnections", "connectionsArchive": "\u002Fgames\u002Fconnections\u002Farchive", "pips": "ca\u002F\u002Fgames\u002Fzorse", "submission": "https:\u002F\u002Fnytimes.com\u002Farticle\u002Fsubmit-crossword-puzzles-the-new-york-times.html", "sbForum": "https:\u002F\u002Fwww.nytimes.com\u002Fspotlight\u002Fspelling-bee-forum", "home": "https:\u002F\u002Fwww.nytimes.com", "wordplay": "https:\u002F\u002Fwww.nytimes.com\u002Fcolumn\u002Fwordplay", "guide": "https:\u002F\u002Fwww.nytimes.com\u002Fguides\u002Fcrosswords\u002Fhow-to-solve-a-crossword-puzzle", "gift": "https:\u002F\u002Fwww.nytimes.com\u002Fsubscription\u002Fgames\u002Fgift", "privacy": "https:\u002F\u002Fwww.nytimes.com\u002Fprivacy\u002Fprivacy-policy", "faq": "https:\u002F\u002Fhelp.nytimes.com\u002Fhc\u002Fen-us\u002Fsections\u002F360011158491-NYT-Games ", "shop": "https:\u002F\u002Fstore.nytimes.com\u002Fcollections\u002Fgames", "termsOfSale": "https:\u002F\u002Fhelp.nytimes.com\u002Fhc\u002Fen-us\u002Farticles\u002F115014893968-Terms-of-sale", "termsOfService": "https:\u002F\u002Fhelp.nytimes.com\u002Fhc\u002Fen-us\u002Farticles\u002F115014893428-Terms-of-service", "sitemap": "https:\u002F\u002Fwww.nytimes.com\u002Fsitemap\u002F", "company": "https:\u002F\u002Fwww.nytco.com\u002F", "feedback": "mailto:nytgames@nytimes.com", "threads": "https:\u002F\u002Fwww.threads.net\u002F@nytgames" }</script>
+  <script type="text/javascript">window.featureFlags = undefined</script>
+  <script
+    type="text/javascript">window.sentryConfig = { "dsn": "https:\u002F\u002F3a4216094411b75b5c881c6291f4029e@o82024.ingest.sentry.io\u002F5839863", "release": "8204b81adafe313b2513fa8457a6b32fead2d036", "sampleRate": "1", "environment": "prod" }</script>
+  <script
+    type="text/javascript">window.datadogRumConfig = { "applicationId": "0d77619c-b426-4593-bbc9-d52dcc596b96", "clientToken": "pub14d82f37842510e1165875309603fdf7", "release": "8204b81adafe313b2513fa8457a6b32fead2d036", "environment": "prod" }</script>
+  <script type="text/javascript">window.isCacheSafe = true</script>
+  
+  <div id="ratio-hook"></div>
+  <div id="width-hook"></div>
+
+  <script>
+    let lastTopThreeHTML = '';
+    let lastRemainingHTML = '';
+
+    function getRankedPlayers(sortedData, startRank, endRank) {
+      let ranks = [];
+      let currentRank = 1;
+      let prevScore = null;
+      let rankCount = 0;
+
+      for (let i = 0; i < sortedData.length && currentRank <= endRank; i++) {
+        const player = sortedData[i];
+        if (prevScore !== null && player.score !== prevScore) {
+          currentRank = rankCount + 1;
+        }
+        if (currentRank >= startRank && currentRank <= endRank) {
+          ranks.push({
+            ...player,
+            rank: currentRank
+          });
+        }
+        prevScore = player.score;
+        rankCount++;
+      }
+      return ranks;
+    }
+
+    function updateLeaderboard() {
+      fetch('/leaderboard-data')
+        .then(response => response.json())
+        .then(data => {
+          // Sort the leaderboard by score in descending order
+          const sortedData = data.sort((a, b) => b.score - a.score);
+
+          // Get top 3 with tie logic
+          const topThreePlayers = getRankedPlayers(sortedData, 1, 3);
+
+          // Generate HTML for top three
+          let topThreeHTML = '';
+          topThreePlayers.forEach((player) => {
+            let badgeClass = '';
+            if (player.rank === 1) badgeClass = 'gold';
+            else if (player.rank === 2) badgeClass = 'silver';
+            else if (player.rank === 3) badgeClass = 'bronze';
+            topThreeHTML += `
+              <div class="leaderboard-item top-rank ${player.rank === 1 ? 'highlight' : ''}">
+                <div class="rank-badge ${badgeClass}">${player.rank}</div>
+                <div class="player-info">
+                    <div class="player-name">${decodeURIComponent(player.username)}</div>
+                  <div class="player-score">${Math.round(player.score)} pts</div>
+                </div>
+              </div>
+            `;
+          });
+
+          // Get rankings 4-10 with tie logic
+          const remainingPlayers = getRankedPlayers(sortedData, 4, 10);
+
+          // Generate HTML for next rankings
+          let remainingHTML = '';
+          remainingPlayers.forEach((player) => {
+            remainingHTML += `
+              <div class="leaderboard-item">
+                <div class="rank-number">${player.rank}</div>
+                <div class="player-info">
+                  <div class="player-name">${decodeURIComponent(player.username)}</div>
+                  <div class="player-score">${Math.round(player.score)} pts</div>
+                </div>
+              </div>
+            `;
+          });
+
+          const topThreeContainer = document.querySelector('.top-three .leaderboard-list');
+          const remainingPlayersContainer = document.querySelector('.remaining-players .leaderboard-list');
+
+          // Only update if HTML is different
+          if (topThreeContainer && topThreeHTML !== lastTopThreeHTML) {
+            topThreeContainer.innerHTML = topThreeHTML;
+            lastTopThreeHTML = topThreeHTML;
+          }
+          if (remainingPlayersContainer && remainingHTML !== lastRemainingHTML) {
+            remainingPlayersContainer.innerHTML = remainingHTML;
+            lastRemainingHTML = remainingHTML;
+          }
+        })
+        .catch(error => console.error('Error loading leaderboard data:', error));
+    }
+
+    // Initial load
+    updateLeaderboard();
+    // Refresh every 10 seconds
+    setInterval(updateLeaderboard, 10000);
+  </script>
+
+
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/9527.648557fd579201f9d24b.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/3842.326dddad6d881ba894e7.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/8806.5f0632718fc936ff3224.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/5700.e1806286ff889d457eb1.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/7974.3d766166f71692c0d1b3.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/8462.84fdc24f94a7b8c1aa1c.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/7142.ed5625291918316bb811.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/1455.4899f3851379ca845119.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/2735.77fb32e3ff0e6b079abb.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/8790.b14d71ff2478baadaf58.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/2736.28e59db6824a6f5505d3.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/6171.26155b87835733879697.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/8997.af09e6f6c7c79257a370.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/3307.3fcc1bb4ae72e7bf2154.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/7709.096b1dec51cbf44ba6c7.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/1493.ec236e7e4c30d515a23f.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/7243.a5a5ba506a98dcd5bced.js"></script>
+  <script defer="" type="text/javascript"
+    src="/nyt_games/navbar.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/5405.4b816cdb992ac3ea7d27.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/7671.78f82fb25902c9252505.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/8908.82910919898903ce8006.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/6561.a031cd771d24ca751c72.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/9106.8ee47c842234c677213c.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/5681.78e1649a0c60974574d4.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/4145.dd5b4b94c1d246549305.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/1070.d1730923edc538fa479a.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/3748.68927de6096ad3a3f597.js"></script>
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/56.d9185ebe879f13dc133c.js"></script>
+  <script defer="" type="text/javascript" src="/nyt_games/leaderboard_menu.js"></script>
+  <!-- <script defer="" type="text/javascript" src="/nyt_games/connections.js"></script> -->
+  <script defer="" type="text/javascript"
+    src="https://www.nytimes.com/games-assets/v2/connections.fec3ef7cba09780953ee.js"></script>
+
+  <script type="text/javascript">!function (r) { var n, t; r = "undefined" != typeof globalThis ? globalThis : r || self, n = r.Abra, (t = r.Abra = function () { "use strict"; var r = Array.isArray, n = function (r, n, t) { var e = r(t, n), u = e[0], o = e[1]; if (null == u || "" === u) return n; for (var i = String(u).split("."), a = 0; a < i.length && (n = n[i[a]]); a++); return null == n && (n = o), null != n ? n : null }, t = function (r, n, t) { return r(t, n).reduce((function (r, n) { return parseFloat(r) + parseFloat(n) }), 0) }, e = function (r, n, t) { var e = r(t, n); return e[0] / e[1] }, u = function (r, n, t) { var e = r(t, n); return e[0] % e[1] }, o = function (r, n, t) { return r(t, n).reduce((function (r, n) { return parseFloat(r) * parseFloat(n) }), 1) }, i = function (r, n, t) { var e = r(t, n), u = e[0], o = e[1]; return void 0 === o ? -u : u - o }; function a(n) { return !(r(n) && 0 === n.length || !n) } var f = function (r, n, t) { for (var e, u = 0; u < t.length; u++)if (!a(e = r(t[u], n))) return e; return e }, c = function (r, n, t) { var e; for (e = 0; e < t.length - 1; e += 2)if (a(r(t[e], n))) return r(t[e + 1], n); return t.length === e + 1 ? r(t[e], n) : null }, l = function (r, n, t) { return !a(r(t, n)[0]) }, v = function (r, n, t) { for (var e, u = 0; u < t.length; u++)if (a(e = r(t[u], n))) return e; return e }, d = function (r, n, t) { var e = r(t, n); return e[0] === e[1] }, s = function (r, n, t) { var e = r(t, n); return e[0] !== e[1] }, h = function (r, n, t) { var e = r(t, n), u = e[0], o = e[1]; return !(!o || void 0 === o.indexOf) && -1 !== o.indexOf(u) }, g = function (r, n, t) { var e = r(t, n); return e[0] > e[1] }, p = function (r, n, t) { var e = r(t, n); return e[0] >= e[1] }, b = function (r, n, t) { var e = r(t, n), u = e[0], o = e[1], i = e[2]; return void 0 === i ? u < o : u < o && o < i }, w = function (r, n, t) { var e = r(t, n), u = e[0], o = e[1], i = e[2]; return void 0 === i ? u <= o : u <= o && o <= i }, y = function (r, n, t) { var e = t[0], u = t[1], o = t.slice(2), i = r(e, n); if (!i) return null; if (0 === o.length) return null; if (1 === o.length) return r(o[0], n); if (4294967295 === o[0]) return r(o[1], n); for (var a = function (r) { var n, t, e, u, o, i = [], a = [t = 1732584193, e = 4023233417, ~t, ~e, 3285377520], f = [], c = unescape(encodeURI(r)) + "\x80", l = c.length; for (f[r = --l / 4 + 2 | 15] = 8 * l; ~l;)f[l >> 2] |= c.charCodeAt(l) << 8 * ~l--; for (n = l = 0; n < r; n += 16) { for (t = a; l < 80; t = [t[4] + (i[l] = l < 16 ? ~~f[n + l] : 2 * c | c < 0) + 1518500249 + [e & u | ~e & o, c = 341275144 + (e ^ u ^ o), 882459459 + (e & u | e & o | u & o), c + 1535694389][l++ / 5 >> 2] + ((c = t[0]) << 5 | c >>> 27), c, e << 30 | e >>> 2, u, o])c = i[l - 3] ^ i[l - 8] ^ i[l - 14] ^ i[l - 16], e = t[1], u = t[2], o = t[3]; for (l = 5; l;)a[--l] += t[l] } return a[0] >>> 0 }(i + " " + r(u, n)); o.length > 1;) { var f = o.splice(0, 2), c = f[0], l = f[1]; if (a <= r(c, n)) return r(l, n) } return 0 === o.length ? null : r(o[0], n) }, k = function (r, n, t) { var e = t[0], u = t[1], o = r(e, n); return null == o ? null : new RegExp(u).test(o) }; return function (a, m, O, A) { void 0 === a && (a = {}), void 0 === m && (m = {}), void 0 === O && (O = {}), void 0 === A && (A = !1); var j = function () { var r = {}, n = function (n) { if (n) for (var t, e = decodeURIComponent(n[1]), u = /(?:^|,)([^,=]+)=([^,]*)/g; t = u.exec(e);) { var o = t, i = o[1], a = o[2]; r[i] = a || null } }; n(document.cookie.match(/(?:^|;) *abra-overrides=([^;]+)/)), n(window.location.search.match(/(?:\?|&)abra-overrides=([^&]+)/)); var t = /(?:^|;) *abra-nuke=true(?:;|$)/.test(document.cookie) || /(?:\?|&)abra-nuke=true(?:&|$)/.test(window.location.search); return [r, t] }(), x = j[0], E = j[1]; Object.keys(O).forEach((function (r) { x[r] = O[r] })); var F, C = A || E, R = (F = { var: n, if: c, "===": d, "!==": s, and: f, or: v, "!": l, ">": g, ">=": p, "<": b, "<=": w, "+": t, "-": i, "*": o, "/": e, "%": u, in: h, abtest_partition: y, regex_match: k, ref: function (r, n, t) { var e = r(t, n)[0]; return U(e) } }, function n(t, e) { if (e || (e = {}), r(t)) return t.map((function (r) { return n(r, e) })); if (!function (n) { return "object" == typeof n && null !== n && !r(n) && 1 === Object.keys(n).length }(t)) return t; var u = function (r) { return Object.keys(r)[0] }(t), o = t[u]; r(o) || (o = [o]); var i = F[u]; if (!i) throw new Error("Unrecognized operation " + u); return i(n, e, o) }), U = function (r) { if (!r) return null; var n = x[r]; if (void 0 === n) { if (!C) { if (Object.prototype.hasOwnProperty.call(x, r)) throw new Error("circular logic"); x[r] = void 0, n = R(a[r], m) } void 0 === n && (n = null), x[r] = n } return n }; return U } }()).noConflict = function () { return r.Abra = n, t } }(this);
+  </script>
+
+</body>
+
+</html>

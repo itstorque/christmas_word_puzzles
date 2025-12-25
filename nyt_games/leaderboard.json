@@ -1,0 +1,50 @@
+[
+  {
+    "username": "sophia",
+    "score": 200
+  },
+  {
+    "username": "test_user_2",
+    "score": 101.234
+  },
+  {
+    "username": "test_user",
+    "score": 100
+  },
+  {
+    "username": "Dani%204",
+    "score": 10
+  },
+  {
+    "username": "Torque",
+    "score": 10
+  },
+  {
+    "username": "Dani 3",
+    "score": 9
+  },
+  {
+    "username": "Dani 5",
+    "score": 8
+  },
+  {
+    "username": "Dani 6",
+    "score": 7
+  },
+  {
+    "username": "Dani 2",
+    "score": 6
+  },
+  {
+    "username": "Dani 1",
+    "score": 5
+  },
+  {
+    "username": "Test",
+    "score": 0
+  },
+  {
+    "username": "Hello",
+    "score": 0
+  }
+]

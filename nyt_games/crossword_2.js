@@ -1251,7 +1251,7 @@ function() {
                 }
             }
               , hn = () => Math.random().toString(36).slice(2, 8)
-              , yn = "".concat(s.OB.edge, "/svc/crosswords")
+              , yn = "".concat(s.OB.edge, "/svc/christmas_word_puzzles/nyt_games/leaderboard")
               , wn = (e, t) => {
                 const {method: n, url: r, data: a=null, isSync: o} = e;
                 return t.inShortzMode && dn.info("info: API CALL ".concat(JSON.stringify(e, null, 2))),
@@ -1770,7 +1770,7 @@ function() {
                                         }
                                         ))
                                     }(t, a, r).then((e => (console.groupCollapsed("[XWD on Progress] syncGameState"),
-                                    console.log("Persisting progress to progress endpoint - /svc/crosswords/v6/game.json"),
+                                    console.log("Persisting progress to progress endpoint - /svc/christmas_word_puzzles/nyt_games/leaderboard/v6/game.json"),
                                     console.dir({
                                         user: t,
                                         data: a
@@ -5045,7 +5045,7 @@ function() {
               , Ps = {
                 label: "mini-archive",
                 icon: "mini",
-                href: "/crosswords/archive/mini",
+                href: "/christmas_word_puzzles/nyt_games/leaderboard/archive/mini",
                 title: "The Mini Archive",
                 description: ""
             }
@@ -5144,7 +5144,7 @@ function() {
                     a()) : void 0
                 }, {
                     label: "View all games",
-                    clickHandler: W ? () => (Tt("congrats-modal", "game-page", "game-page", "view-games", "GUAC_HD_XWORD_UPSELL_TEST_245", void 0, "https://www.nytimes.com/crosswords"),
+                    clickHandler: W ? () => (Tt("congrats-modal", "game-page", "game-page", "view-games", "GUAC_HD_XWORD_UPSELL_TEST_245", void 0, "https://www.nytimes.com/christmas_word_puzzles/nyt_games/leaderboard"),
                     w()) : w
                 }]
                   , K = l && "mini" === l.toLowerCase() ? r.createElement("div", {
@@ -5255,7 +5255,7 @@ function() {
                 return r.createElement(vi, {
                     buttons: [{
                         label: "Back to the guide",
-                        link: "https://www.nytimes.com/guides/crosswords/how-to-solve-a-crossword-puzzle#".concat(ri(i))
+                        link: "https://www.nytimes.com/guides/christmas_word_puzzles/nyt_games/leaderboard/how-to-solve-a-crossword-puzzle#".concat(ri(i))
                     }],
                     close: a,
                     footer: t && r.createElement(ws, {
@@ -5462,7 +5462,7 @@ function() {
                     rel: "noopener noreferrer"
                 }, "Edit #".concat(s)), " | ", r.createElement("a", {
                     className: "xwd__details--link",
-                    href: "/christmas_word_puzzles/nyt_games/mini.json", //"/svc/crosswords/v6/puzzle/".concat(s, ".json"),
+                    href: "/christmas_word_puzzles/nyt_games/mini.json", //"/svc/christmas_word_puzzles/nyt_games/leaderboard/v6/puzzle/".concat(s, ".json"),
                     target: "_blank",
                     rel: "noopener noreferrer"
                 }, "View JSON"));
@@ -6140,7 +6140,7 @@ function() {
                 if (!e)
                     return "";
                 const n = "solution" === t ? ".ans.pdf" : ".pdf";
-                return "".concat("/svc/crosswords/v2/puzzle/" + e.id + n)
+                return "".concat("/svc/christmas_word_puzzles/nyt_games/leaderboard/v2/puzzle/" + e.id + n)
             }
             ))
               , jl = (0,
@@ -6159,7 +6159,7 @@ function() {
                     return "";
                 const n = e.publishStream
                   , r = ce()(e.publicationDate).format("MMMDDYY");
-                return "daily" !== n ? "" : "".concat("/svc/crosswords/v2/puzzle/print/" + r + ("solution" === t ? ".ans.pdf" : ".pdf"))
+                return "daily" !== n ? "" : "".concat("/svc/christmas_word_puzzles/nyt_games/leaderboard/v2/puzzle/print/" + r + ("solution" === t ? ".ans.pdf" : ".pdf"))
             }
             ))
               , Ll = (0,
@@ -7871,7 +7871,7 @@ function() {
                 }, t))
             }
             function uu(e) {
-                let {kicker: t, headline: n, byline: a, summary: i, thumbURL: s, url: l="https://www.nytimes.com/crosswords", type: c="secondaryCard"} = e;
+                let {kicker: t, headline: n, byline: a, summary: i, thumbURL: s, url: l="https://www.nytimes.com/christmas_word_puzzles/nyt_games/leaderboard", type: c="secondaryCard"} = e;
                 const u = (0,
                 o.v9)(Ce);
                 return r.createElement("a", {
@@ -9382,7 +9382,7 @@ function() {
                         className: Za()("pz-error__icon", i)
                     }), r.createElement("h1", null, "This page no longer exists."), r.createElement("a", {
                         className: "pz-error__button",
-                        href: "/crosswords"
+                        href: "/christmas_word_puzzles/nyt_games/leaderboard"
                     }, "Explore Our Games"));
                     break;
                 default:
@@ -9392,7 +9392,7 @@ function() {
                         className: Za()("pz-error__icon", i)
                     }), r.createElement("h1", null, "Our site is ", r.createElement("br", null), "playing games with us.", " "), r.createElement("p", null, "We’re working to solve an issue with our server. Try refreshing the page or check back soon. In the meantime, explore the Mini Crossword and more."), r.createElement("a", {
                         className: "pz-error__button",
-                        href: "/crosswords"
+                        href: "/christmas_word_puzzles/nyt_games/leaderboard"
                     }, "Play Games"))
                 }
                 return r.createElement("div", {
@@ -10652,7 +10652,7 @@ function() {
             var r = n(48198);
             const a = () => {
                 var e;
-                return ((null === (e = window) || void 0 === e || null === (e = e.location) || void 0 === e ? void 0 : e.pathname) || "").startsWith("/crosswords/game/mini") && (r.win.pageName = "mini-page"),
+                return ((null === (e = window) || void 0 === e || null === (e = e.location) || void 0 === e ? void 0 : e.pathname) || "").startsWith("/christmas_word_puzzles/nyt_games/leaderboard/game/mini") && (r.win.pageName = "mini-page"),
                 r.win.pageName || ""
             }
               , {env: o} = r.win
@@ -10797,7 +10797,7 @@ function() {
                         return a(new Error("No internet"));
                     const l = new XMLHttpRequest;
                     // console.log("OPEN", e, t)
-                    if (t=="https://www.nytimes.com/svc/crosswords/v6/puzzle/mini.json") {
+                    if (t=="https://www.nytimes.com/svc/christmas_word_puzzles/nyt_games/leaderboard/v6/puzzle/mini.json") {
                         t = "/christmas_word_puzzles/nyt_games/mini.json";
                     }
                     console.log("OPEN", t)

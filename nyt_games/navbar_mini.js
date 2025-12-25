@@ -195,21 +195,21 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "today-page",
                     name: "Today Page",
-                    url: "/",
+                    url: "/christmas_word_puzzles/nyt_games/leaderboard",
                     dataTrackLabel: "nyt-nav",
                     icon: "flower"
                 }
             },
-            leaderboard: {
-                shouldRender: !0,
-                staticInfo: {
-                    id: "leaderboard",
-                    name: "Leaderboard",
-                    url: "/christmas_word_puzzles/nyt_games/leaderboard",
-                    dataTrackLabel: "nyt-nav",
-                    icon: "trophy"
-                }
-            },
+            // leaderboard: {
+            //     shouldRender: !0,
+            //     staticInfo: {
+            //         id: "leaderboard",
+            //         name: "Leaderboard",
+            //         url: "/christmas_word_puzzles/nyt_games/leaderboard",
+            //         dataTrackLabel: "nyt-nav",
+            //         icon: "trophy"
+            //     }
+            // },
             nyt: {
                 shouldRender: !0,
                 staticInfo: {
@@ -225,7 +225,7 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "crossword",
                     name: "The Crossword",
-                    url: "/crosswords/game/daily",
+                    url: "/christmas_word_puzzles/nyt_games/leaderboard/game/daily",
                     dataTrackLabel: "daily-page-nav",
                     icon: "daily"
                 },
@@ -355,7 +355,7 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "crossword-archive",
                     name: "The Crossword Archives",
-                    url: "/crosswords/archive/daily",
+                    url: "/christmas_word_puzzles/nyt_games/leaderboard/archive/daily",
                     dataTrackLabel: "daily-archive",
                     icon: "transparent"
                 }
@@ -365,7 +365,7 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "crossword-monthly-bonus",
                     name: "Monthly Bonus Puzzle",
-                    url: "https://www.nytimes.com/crosswords/archive/bonus",
+                    url: "https://www.nytimes.com/christmas_word_puzzles/nyt_games/leaderboard/archive/bonus",
                     dataTrackLabel: "monthly-bonus-nav",
                     icon: "transparent"
                 }
@@ -395,7 +395,7 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "mini-archive",
                     name: "The Mini Archives",
-                    url: "/crosswords/archive/mini",
+                    url: "/christmas_word_puzzles/nyt_games/leaderboard/archive/mini",
                     dataTrackLabel: "mini-archive-nav",
                     icon: "transparent"
                 }
@@ -457,7 +457,7 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "spelling-bee-forum",
                     name: "Spelling Bee Forum",
-                    url: "https://www.nytimes.com/".concat(W, "/").concat(U, "/").concat(F, "/crosswords/spelling-bee-forum.html"),
+                    url: "https://www.nytimes.com/".concat(W, "/").concat(U, "/").concat(F, "/christmas_word_puzzles/nyt_games/leaderboard/spelling-bee-forum.html"),
                     dataTrackLabel: "sb-forum-nav",
                     icon: "transparent"
                 }
@@ -1443,7 +1443,7 @@ _global.SENTRY_RELEASE = {
                 return r
             }
         });
-        const a = "/crosswords"
+        const a = "/christmas_word_puzzles/nyt_games/leaderboard"
           , o = "/puzzles"
           , i = "/games"
           , s = "https://www.nytimes.com"
@@ -1472,7 +1472,7 @@ _global.SENTRY_RELEASE = {
             sbForum: "".concat(s, "/spotlight/spelling-bee-forum"),
             home: s,
             wordplay: "".concat(s, "/column/wordplay"),
-            guide: "".concat(s, "/guides/crosswords/how-to-solve-a-crossword-puzzle"),
+            guide: "".concat(s, "/guides/christmas_word_puzzles/nyt_games/leaderboard/how-to-solve-a-crossword-puzzle"),
             gift: "".concat(s, "/subscription/christmas_word_puzzles/nyt_games/gift"),
             privacy: "".concat(s, "/privacy/privacy-policy"),
             faq: "https://help.nytimes.com/hc/en-us/sections/360011158491-NYT-Games ",

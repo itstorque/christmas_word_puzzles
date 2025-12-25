@@ -1104,7 +1104,7 @@ _global.SENTRY_RELEASE = {
             }), r.createElement(z.Z, {
                 type: z.H.LINK,
                 label: "Tips and Tricks",
-                url: "https://www.nytimes.com/2024/06/28/crosswords/strands-tips-and-tricks.html"
+                url: "https://www.nytimes.com/2024/06/28/christmas_word_puzzles/nyt_games/leaderboard/strands-tips-and-tricks.html"
             }), r.createElement(z.Z, {
                 type: z.H.LINK,
                 label: "Feedback",

@@ -219,7 +219,7 @@ _global.SENTRY_RELEASE = {
                     className: l()("pz-error__icon", s)
                 }), r.createElement("h1", null, "This page no longer exists."), r.createElement("a", {
                     className: "pz-error__button",
-                    href: "/crosswords"
+                    href: "/christmas_word_puzzles/nyt_games/leaderboard"
                 }, "Explore Our Games"));
                 break;
             default:
@@ -229,7 +229,7 @@ _global.SENTRY_RELEASE = {
                     className: l()("pz-error__icon", s)
                 }), r.createElement("h1", null, "Our site is ", r.createElement("br", null), "playing games with us.", " "), r.createElement("p", null, "We’re working to solve an issue with our server. Try refreshing the page or check back soon. In the meantime, explore the Mini Crossword and more."), r.createElement("a", {
                     className: "pz-error__button",
-                    href: "/crosswords"
+                    href: "/christmas_word_puzzles/nyt_games/leaderboard"
                 }, "Play Games"))
             }
             return r.createElement("div", {
@@ -407,7 +407,7 @@ _global.SENTRY_RELEASE = {
         const X = {
             label: "mini-page",
             icon: "mini",
-            href: "/crosswords/game/mini",
+            href: "/christmas_word_puzzles/nyt_games/leaderboard/game/mini",
             title: "The Mini",
             description: "Solve in seconds"
         }
@@ -429,7 +429,7 @@ _global.SENTRY_RELEASE = {
           , V = {
             label: "mini-archive",
             icon: "mini",
-            href: "/crosswords/archive/mini",
+            href: "/christmas_word_puzzles/nyt_games/leaderboard/archive/mini",
             title: "The Mini Archive",
             description: ""
         }

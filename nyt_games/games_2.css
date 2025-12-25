@@ -934,140 +934,140 @@ table {
 
 @font-face {
     font-family: "nyt-cheltenham";
-    src: url("/assets/fonts/cheltenham/cheltenham-normal-300.woff2") format("woff2"),url("/assets/fonts/cheltenham/cheltenham-normal-300.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/cheltenham/cheltenham-normal-300.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/cheltenham/cheltenham-normal-300.woff") format("woff");
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-cheltenham";
-    src: url("/assets/fonts/cheltenham/cheltenham-normal-500.woff2") format("woff2"),url("/assets/fonts/cheltenham/cheltenham-normal-500.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/cheltenham/cheltenham-normal-500.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/cheltenham/cheltenham-normal-500.woff") format("woff");
     font-weight: 500;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-franklin";
-    src: url("/assets/fonts/franklin-normal-300.woff2") format("woff2"),url("/assets/fonts/franklin-normal-300.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/franklin-normal-300.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/franklin-normal-300.woff") format("woff");
     font-weight: 300;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-franklin";
-    src: url("/assets/fonts/franklin-normal-400.woff2") format("woff2"),url("/assets/fonts/franklin-normal-400.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/franklin-normal-400.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/franklin-normal-400.woff") format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-franklin";
-    src: url("/assets/fonts/franklin-normal-500.woff2") format("woff2"),url("/assets/fonts/franklin-normal-500.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/franklin-normal-500.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/franklin-normal-500.woff") format("woff");
     font-weight: 500;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-franklin";
-    src: url("/assets/fonts/franklin-normal-600.woff2") format("woff2"),url("/assets/fonts/franklin-normal-600.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/franklin-normal-600.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/franklin-normal-600.woff") format("woff");
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-franklin";
-    src: url("/assets/fonts/franklin-normal-700.woff2") format("woff2"),url("/assets/fonts/franklin-normal-700.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/franklin-normal-700.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/franklin-normal-700.woff") format("woff");
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-franklin";
-    src: url("/assets/fonts/franklin-normal-800.woff2") format("woff2"),url("/assets/fonts/franklin-normal-800.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/franklin-normal-800.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/franklin-normal-800.woff") format("woff");
     font-weight: 800;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-franklin";
-    src: url("/assets/fonts/franklin-italic-500.woff2") format("woff2"),url("/assets/fonts/franklin-italic-500.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/franklin-italic-500.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/franklin-italic-500.woff") format("woff");
     font-weight: 500;
     font-style: italic
 }
 
 @font-face {
     font-family: "nyt-franklin-cw";
-    src: url("/assets/fonts/franklin-cw-normal-400.woff2") format("woff2"),url("/assets/fonts/franklin-cw-normal-400.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/franklin-cw-normal-400.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/franklin-cw-normal-400.woff") format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-franklin-cw";
-    src: url("/assets/fonts/franklin-cw-normal-500.woff2") format("woff2"),url("/assets/fonts/franklin-cw-normal-500.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/franklin-cw-normal-500.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/franklin-cw-normal-500.woff") format("woff");
     font-weight: 500;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-karnak";
-    src: url("/assets/fonts/karnak-normal-400.woff2") format("woff2"),url("/assets/fonts/karnak-normal-400.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/karnak-normal-400.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/karnak-normal-400.woff") format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-karnak";
-    src: url("/assets/fonts/karnak-normal-500.woff2") format("woff2"),url("/assets/fonts/karnak-normal-500.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/karnak-normal-500.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/karnak-normal-500.woff") format("woff");
     font-weight: 500;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-karnak";
-    src: url("/assets/fonts/karnak-normal-600.woff2") format("woff2"),url("/assets/fonts/karnak-normal-600.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/karnak-normal-600.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/karnak-normal-600.woff") format("woff");
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-karnak";
-    src: url("/assets/fonts/karnak-normal-700.woff2") format("woff2"),url("/assets/fonts/karnak-normal-700.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/karnak-normal-700.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/karnak-normal-700.woff") format("woff");
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-karnakcondensed";
-    src: url("/assets/fonts/karnakcondensed-normal-700.woff2") format("woff2"),url("/assets/fonts/karnakcondensed-normal-700.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/karnakcondensed-normal-700.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/karnakcondensed-normal-700.woff") format("woff");
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-stymie";
-    src: url("/assets/fonts/stymie-normal-500.woff2") format("woff2"),url("/assets/fonts/stymie-normal-500.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/stymie-normal-500.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/stymie-normal-500.woff") format("woff");
     font-weight: 500;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-stymie";
-    src: url("/assets/fonts/stymie-normal-700.woff2") format("woff2"),url("/assets/fonts/stymie-normal-700.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/stymie-normal-700.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/stymie-normal-700.woff") format("woff");
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-stymie";
-    src: url("/assets/fonts/stymie-normal-800.woff2") format("woff2"),url("/assets/fonts/stymie-normal-800.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/stymie-normal-800.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/stymie-normal-800.woff") format("woff");
     font-weight: 800;
     font-style: normal
 }
 
 @font-face {
     font-family: "nyt-inter";
-    src: url("/assets/fonts/inter-normal-600.woff2") format("woff2"),url("/assets/fonts/inter-normal-600.woff") format("woff");
+    src: url("/christmas_word_puzzles/assets/fonts/inter-normal-600.woff2") format("woff2"),url("/christmas_word_puzzles/assets/fonts/inter-normal-600.woff") format("woff");
     font-weight: 600;
     font-style: normal
 }

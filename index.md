@@ -9,7 +9,7 @@
     <div class="pz-game-wrapper" id="js-hook-game-wrapper">
       <div class="pz-game-screen" id="js-hook-pz-moment__game">
         <div id="christmas-games-content">
-          <link rel="stylesheet" href="/assets/css/games.css">
+          <link rel="stylesheet" href="/christmas_word_puzzles/assets/css/games.css">
           <link rel="stylesheet" href="/christmas_word_puzzles/nyt_games/games_1.css">
           <link rel="stylesheet" href="/christmas_word_puzzles/nyt_games/games_2.css">
 

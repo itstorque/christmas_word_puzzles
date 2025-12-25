@@ -449,7 +449,7 @@ _global.SENTRY_RELEASE = {
                 (e => {
                     let {today: t} = e;
                     return l.Be.get((n = t,
-                    "/nyt_games/strands_problem.json")
+                    "/christmas_word_puzzles/nyt_games/strands_problem.json")
                     // "".concat(l.OB.edge, "/svc/strands/v2/").concat((0,
                     // a.Z)(n, "yyyy-MM-dd"), ".json"))
                     , {

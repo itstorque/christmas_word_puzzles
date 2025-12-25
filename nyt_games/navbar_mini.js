@@ -53,7 +53,7 @@ _global.SENTRY_RELEASE = {
                 className: "top-sale-banner__text"
             }, d)), a.createElement("img", {
                 className: "top-sale-banner__icon",
-                src: "https://mwcm.nyt.com/dam/LP/nyt_games/banner/chevron-right.svg",
+                src: "https://mwcm.nyt.com/dam/LP/christmas_word_puzzles/nyt_games/banner/chevron-right.svg",
                 alt: "open banner"
             })))
         }
@@ -205,7 +205,7 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "leaderboard",
                     name: "Leaderboard",
-                    url: "/nyt_games/leaderboard",
+                    url: "/christmas_word_puzzles/nyt_games/leaderboard",
                     dataTrackLabel: "nyt-nav",
                     icon: "trophy"
                 }
@@ -239,7 +239,7 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "mini",
                     name: "The Mini",
-                    url: "/nyt_games/mini",
+                    url: "/christmas_word_puzzles/nyt_games/mini",
                     dataTrackLabel: "mini-page-nav",
                     icon: "mini"
                 }//,
@@ -253,7 +253,7 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "connections",
                     name: "Connections",
-                    url: "/nyt_games/connections",
+                    url: "/christmas_word_puzzles/nyt_games/connections",
                     dataTrackLabel: "connections-nav",
                     icon: "connections"
                 }//,
@@ -281,7 +281,7 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "wordle",
                     name: "Wordle",
-                    url: "/nyt_games/wordle/index.html",
+                    url: "/christmas_word_puzzles/nyt_games/wordle/index.html",
                     dataTrackLabel: "wordle-nav",
                     icon: "wordle"
                 },
@@ -295,7 +295,7 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "pips",
                     name: "Pips",
-                    url: "/nyt_games/pips",
+                    url: "/christmas_word_puzzles/nyt_games/pips",
                     dataTrackLabel: "pips-nav",
                     icon: "pips",
                     isNew: !0
@@ -306,7 +306,7 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "strands",
                     name: "Strands",
-                    url: "/nyt_games/strands",
+                    url: "/christmas_word_puzzles/nyt_games/strands",
                     dataTrackLabel: "strands-nav",
                     icon: "strands"
                 }
@@ -415,7 +415,7 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "connections-archive",
                     name: "Connections Archive",
-                    url: "/nyt_games/connections/archive",
+                    url: "/christmas_word_puzzles/nyt_games/connections/archive",
                     dataTrackLabel: "connections-archive-nav",
                     isNew: !1,
                     icon: "transparent"
@@ -467,7 +467,7 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "wordle-archive",
                     name: "Wordle Archive",
-                    url: "/nyt_games/wordle/archive",
+                    url: "/christmas_word_puzzles/nyt_games/wordle/archive",
                     dataTrackLabel: "wordle-archive-nav",
                     icon: "transparent"
                 }
@@ -477,7 +477,7 @@ _global.SENTRY_RELEASE = {
                 staticInfo: {
                     id: "create-wordle",
                     name: "Create Your Own Puzzle",
-                    url: "/nyt_games/create/wordle",
+                    url: "/christmas_word_puzzles/nyt_games/create/wordle",
                     dataTrackLabel: "create-wordle-nav",
                     icon: "transparent",
                     isNew: !0
@@ -1473,7 +1473,7 @@ _global.SENTRY_RELEASE = {
             home: s,
             wordplay: "".concat(s, "/column/wordplay"),
             guide: "".concat(s, "/guides/crosswords/how-to-solve-a-crossword-puzzle"),
-            gift: "".concat(s, "/subscription/nyt_games/gift"),
+            gift: "".concat(s, "/subscription/christmas_word_puzzles/nyt_games/gift"),
             privacy: "".concat(s, "/privacy/privacy-policy"),
             faq: "https://help.nytimes.com/hc/en-us/sections/360011158491-NYT-Games ",
             shop: "https://store.nytimes.com/collections/games",

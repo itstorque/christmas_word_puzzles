@@ -1261,7 +1261,7 @@ function() {
                 })
             }
               , _n = e => {
-                const t = "".concat(yn, "/v3/").concat(e.regiId, "/nyt_games/stats-and-streaks.json?date_start=2014-01-01&start_on_monday=true");
+                const t = "".concat(yn, "/v3/").concat(e.regiId, "/christmas_word_puzzles/nyt_games/stats-and-streaks.json?date_start=2014-01-01&start_on_monday=true");
                 return wn({
                     method: "GET",
                     url: t
@@ -1274,7 +1274,7 @@ function() {
                 ))
             }
               , En = e => {
-                const t = "".concat(yn, "/v3/").concat(e.regiId, "/nyt_games/mini-stats.json?date_start=2014-01-01&start_on_monday=true");
+                const t = "".concat(yn, "/v3/").concat(e.regiId, "/christmas_word_puzzles/nyt_games/mini-stats.json?date_start=2014-01-01&start_on_monday=true");
                 return wn({
                     method: "GET",
                     url: t
@@ -4245,8 +4245,8 @@ function() {
                 const n = "d=".concat(e, "&t=").concat(t)
                   , r = ki()(n);
                 return {
-                    shareUrl: "".concat("https://www.nytimes.com/badges/nyt_games/mini.html", "?").concat(n, "&c=").concat(r),
-                    shareImageSrc: "".concat("https://www.nytimes.com/badges/nyt_games/mini.png", "?").concat(n, "&c=").concat(r)
+                    shareUrl: "".concat("https://www.nytimes.com/badges/christmas_word_puzzles/nyt_games/mini.html", "?").concat(n, "&c=").concat(r),
+                    shareImageSrc: "".concat("https://www.nytimes.com/badges/christmas_word_puzzles/nyt_games/mini.png", "?").concat(n, "&c=").concat(r)
                 }
             }
               , xi = encodeURIComponent("https://www.facebook.com/");
@@ -4256,7 +4256,7 @@ function() {
                 label: "connections",
                 context: "connections",
                 icon: "connections",
-                href: "/nyt_games/connections",
+                href: "/christmas_word_puzzles/nyt_games/connections",
                 title: "Connections",
                 description: "Group words"
             }
@@ -4272,7 +4272,7 @@ function() {
                 label: "strands",
                 context: "strands",
                 icon: "strands",
-                href: "/nyt_games/strands",
+                href: "/christmas_word_puzzles/nyt_games/strands",
                 title: "Strands",
                 description: "Find hidden words"
             }
@@ -4288,7 +4288,7 @@ function() {
                 label: "game-page",
                 context: "daily-page",
                 icon: "crossword",
-                href: "/nyt_games/leaderboard",
+                href: "/christmas_word_puzzles/nyt_games/leaderboard",
                 title: "Leaderboard",
                 description: "See who's winning"
             }
@@ -5017,14 +5017,14 @@ function() {
             const Os = {
                 label: "wordle",
                 icon: "wordle",
-                href: "/nyt_games/wordle/index.html",
+                href: "/christmas_word_puzzles/nyt_games/wordle/index.html",
                 title: "Wordle",
                 description: "Untangle terms"
             }
               , Ss = {
                 label: "connections",
                 icon: "connections",
-                href: "/nyt_games/connections",
+                href: "/christmas_word_puzzles/nyt_games/connections",
                 title: "Connections",
                 description: "Group words"
             }
@@ -5038,7 +5038,7 @@ function() {
               , Cs = {
                 label: "archive",
                 icon: "wordle",
-                href: "/nyt_games/wordle/archive",
+                href: "/christmas_word_puzzles/nyt_games/wordle/archive",
                 title: "Wordle Archive",
                 description: ""
             }
@@ -5462,7 +5462,7 @@ function() {
                     rel: "noopener noreferrer"
                 }, "Edit #".concat(s)), " | ", r.createElement("a", {
                     className: "xwd__details--link",
-                    href: "/nyt_games/mini.json", //"/svc/crosswords/v6/puzzle/".concat(s, ".json"),
+                    href: "/christmas_word_puzzles/nyt_games/mini.json", //"/svc/crosswords/v6/puzzle/".concat(s, ".json"),
                     target: "_blank",
                     rel: "noopener noreferrer"
                 }, "View JSON"));
@@ -6084,7 +6084,7 @@ function() {
                     checked: a
                 })))
             }
-            const hl = e => "".concat("https://static01.nytimes.com/nyt_games/web/imgs/mobile/packs/pack_icons_").concat(e ? "shortz_favorites_2.png" : "themeless_puzzles_2.png");
+            const hl = e => "".concat("https://static01.nytimes.com/christmas_word_puzzles/nyt_games/web/imgs/mobile/packs/pack_icons_").concat(e ? "shortz_favorites_2.png" : "themeless_puzzles_2.png");
             function yl() {
                 const {inShortzMode: e, isErsatzShortz: t, setShortzMode: n} = As();
                 return t ? r.createElement("span", {
@@ -7848,7 +7848,7 @@ function() {
             }) : ou({}, e);
             var lu = (e, t) => wn({
                 method: "GET",
-                url: "/nyt_games/mini.json"//.concat(yn, "/v6/editorial-content/puzzle/").concat(e, ".json")
+                url: "/christmas_word_puzzles/nyt_games/mini.json"//.concat(yn, "/v6/editorial-content/puzzle/").concat(e, ".json")
             }, t).then((e => (e.featuredArticle = su(e.featuredArticle),
             e.secondaryArticles = e.secondaryArticles.map((e => su(e))),
             e)));
@@ -10798,7 +10798,7 @@ function() {
                     const l = new XMLHttpRequest;
                     // console.log("OPEN", e, t)
                     if (t=="https://www.nytimes.com/svc/crosswords/v6/puzzle/mini.json") {
-                        t = "/nyt_games/mini.json";
+                        t = "/christmas_word_puzzles/nyt_games/mini.json";
                     }
                     console.log("OPEN", t)
                     if (l.open(e, t, !s),
@@ -11088,7 +11088,7 @@ function() {
             const c = function() {
                 var e = l((function*(e, t) {
                     const n = t.join(",")
-                      , o = yield r.Be.get("".concat(r.OB.moogle, "/svc/nyt_games/state/").concat(e, "/latests?puzzle_ids=").concat(n));
+                      , o = yield r.Be.get("".concat(r.OB.moogle, "/svc/christmas_word_puzzles/nyt_games/state/").concat(e, "/latests?puzzle_ids=").concat(n));
                     if ("forbidden" === o.error)
                         throw new Error("not authenticated");
                     if (!o.states)
@@ -11114,7 +11114,7 @@ function() {
             }()
               , u = function() {
                 var e = l((function*(e) {
-                    const t = yield r.Be.post("".concat(r.OB.moogle, "/svc/nyt_games/state"), e, {
+                    const t = yield r.Be.post("".concat(r.OB.moogle, "/svc/christmas_word_puzzles/nyt_games/state"), e, {
                         withStatus: !0,
                         headers: {
                             "x-games-client-time": (new Date).toISOString(),
@@ -11148,7 +11148,7 @@ function() {
             }()
               , d = function() {
                 var e = l((function*(e) {
-                    const t = yield r.Be.get("".concat(r.OB.moogle, "/svc/nyt_games/settings/").concat(e));
+                    const t = yield r.Be.get("".concat(r.OB.moogle, "/svc/christmas_word_puzzles/nyt_games/settings/").concat(e));
                     if ("forbidden" === t.error)
                         throw new Error("not authenticated");
                     if (t.user_id)
@@ -11162,7 +11162,7 @@ function() {
             }()
               , m = function() {
                 var e = l((function*(e) {
-                    const t = yield r.Be.post("".concat(r.OB.moogle, "/svc/nyt_games/settings"), e, {
+                    const t = yield r.Be.post("".concat(r.OB.moogle, "/svc/christmas_word_puzzles/nyt_games/settings"), e, {
                         withStatus: !0
                     });
                     if (null != t && t.error)

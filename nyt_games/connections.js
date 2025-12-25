@@ -422,7 +422,7 @@ _global.SENTRY_RELEASE = {
           , Y = {
             label: "wordle",
             icon: "wa",
-            href: "/nyt_games/wordle/index.html",
+            href: "/christmas_word_puzzles/nyt_games/wordle/index.html",
             title: "Wordle",
             description: "Untangle terms"
         }
@@ -443,7 +443,7 @@ _global.SENTRY_RELEASE = {
           , $ = {
             label: "archive",
             icon: "connections",
-            href: "/nyt_games/connections/archive",
+            href: "/christmas_word_puzzles/nyt_games/connections/archive",
             title: "Connections Archive",
             description: ""
         };
@@ -701,7 +701,7 @@ _global.SENTRY_RELEASE = {
             return o.createElement(A.Z, {
                 className: ge,
                 text: "Leaderboard",
-                onClick: () => {document.location.href = "/nyt_games/leaderboard"},
+                onClick: () => {document.location.href = "/christmas_word_puzzles/nyt_games/leaderboard"},
                 type: t
             })
         }
@@ -1014,7 +1014,7 @@ _global.SENTRY_RELEASE = {
                     color: "secondary",
                     dataTestId: "moment-btn-login",
                     action: e => {
-                        document.location.href = "/nyt_games/leaderboard"
+                        document.location.href = "/christmas_word_puzzles/nyt_games/leaderboard"
                     }
                 }
                   , N = Qe(Qe({}, O), {}, {
@@ -2038,7 +2038,7 @@ _global.SENTRY_RELEASE = {
                 getSolutionByDate: e.query({
                     query: e => ({
                         method: "get",
-                        url: "/nyt_games/connections_problem.json",
+                        url: "/christmas_word_puzzles/nyt_games/connections_problem.json",
                         options: {
                             withStatus: !0
                         }
@@ -3293,7 +3293,7 @@ _global.SENTRY_RELEASE = {
                 icon: Ge.qD.STATS,
                 itemType: Ge.uF.BUTTON,
                 onClick: () => {
-                    document.location.href = "/nyt_games/leaderboard"
+                    document.location.href = "/christmas_word_puzzles/nyt_games/leaderboard"
                 },
                 trackingProps: G
             }), r.createElement(Ge.Eg, {
@@ -3700,7 +3700,7 @@ _global.SENTRY_RELEASE = {
               , _ = f === p;
             (0,
             r.useEffect)(( () => {
-                l && _ && window.location.replace("/nyt_games/connections".concat(e ? "?GAMES_connectionsRollout_1130=1_ConnectionsV2" : ""))
+                l && _ && window.location.replace("/christmas_word_puzzles/nyt_games/connections".concat(e ? "?GAMES_connectionsRollout_1130=1_ConnectionsV2" : ""))
             }
             ), [l, _]);
             const {isLoading: g, isError: v, error: b} = (0,
@@ -5984,7 +5984,7 @@ _global.SENTRY_RELEASE = {
           , d = (0,
         r.createSelector)(l, (e => {
             const [t,n] = e.split("-");
-            return "/nyt_games/connections/archive/".concat(t, "/").concat(n)
+            return "/christmas_word_puzzles/nyt_games/connections/archive/".concat(t, "/").concat(n)
         }
         ))
           , m = (0,
